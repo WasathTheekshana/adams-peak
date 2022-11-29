@@ -1,10 +1,10 @@
 <h2>Installing PHP</h2>
 
-<i>Step 1</i>
+<i>Step 1</i> <br>
 <b> Download PHP Version </b>
 https://php.net
 
-<i>Step 2</i>
+<i>Step 2</i> <br>
 <b> Extract the file to a new folder & name it as 'php' </b>
 
 
