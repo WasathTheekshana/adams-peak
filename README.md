@@ -1,2 +1,3 @@
 # adams-peak
-Adam's Peak web site for web development module.
+<h3>PHP Local Host Run</h3>
+  php -S localhost:5500
