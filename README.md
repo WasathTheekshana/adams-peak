@@ -25,6 +25,7 @@ https://php.net
 <i>Step 8</i> <br>
 <b> Add the 'php' folder path (C:\php) to the field & press 'OK' </b> <br>
 
+<i>Step 9</i> <br>
 <b> Open source files in VS Code & Run this code for view the site in real time </b>
 
     php -S localhost:5500
