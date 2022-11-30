@@ -8,6 +8,12 @@
 */
 
 @import url(../global.css);
+@import url(../main.css);
+@import url(../Pages/developers.css);
+@import url(../Pages/explore.css);
+@import url(../Pages/gallery.css);
+@import url(../Pages/history.css);
+@import url(../Pages/routes.css);
 
 *,
 ::before,

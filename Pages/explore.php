@@ -7,6 +7,8 @@
     <title>Explore</title>
 </head>
 <body>
-    
+  <?php include './navBar/navBar.html' ?>
+
+  <?php include './Footer/footer.html' ?>
 </body>
 </html>
