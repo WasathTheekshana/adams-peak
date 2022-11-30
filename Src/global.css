@@ -5,3 +5,6 @@
 @import url(Footer/footer.css);
 @import url(navBar/navBar.css);
 
+body{
+    background-color: black;
+}
