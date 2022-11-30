@@ -1,7 +1,4 @@
-.container{
-    font-family: Arial, Helvetica, sans-serif;
-    width: 50vw;
-    height: 50vh;
-    background-color: antiquewhite;
+.container-div{
+    font-weight: bold;
+    color: seagreen;
 }
-
