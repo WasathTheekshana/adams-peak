@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url(Footer/footer.css);
+@import url(footer/footer.css);
 @import url(navBar/navBar.css);
 
 body{

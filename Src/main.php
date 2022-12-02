@@ -14,6 +14,6 @@
     Hello world!
   </h1>
 
-  <?php include './Footer/footer.html' ?>
+  <?php include './footer/footer.html' ?>
 </body>
 </html>

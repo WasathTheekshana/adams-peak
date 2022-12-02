@@ -11,6 +11,6 @@
 <body>
   <?php include './navBar/navBar.html' ?>
 
-  <?php include './Footer/footer.html' ?>
+  <?php include './footer/footer.html' ?>
 </body>
 </html>
