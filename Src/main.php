@@ -11,7 +11,7 @@
   <?php include './navBar/navBar.html' ?>
 
 <h1 class="text-3xl font-bold underline text-center ">
-    Hello world!
+    Hello world
   </h1>
 
   <?php include './footer/footer.html' ?>
