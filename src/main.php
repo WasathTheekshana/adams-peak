@@ -8,12 +8,14 @@
     <link href="/dist/output.css" rel="stylesheet">
 </head>
 <body>
+  
   <?php include './navBar/navBar.html' ?>
-
-<h1 class="text-3xl font-bold underline text-center ">
-    Hello world
-  </h1>
-
+  <?php include './components/hero.html' ?>
+  <?php include './components/intro.html' ?>
+  <?php include './components/hero.html' ?>
+  <?php include './components/homeGallery.html' ?>
+  <?php include './components/forum.html' ?>
   <?php include './footer/footer.html' ?>
+
 </body>
 </html>

@@ -9,8 +9,8 @@
     <script src="routes.js"></script>
 </head>
 <body>
-  <?php include './navBar/navBar.html' ?>
+  <?php include './../navBar/navBar.html' ?>
 
-  <?php include './footer/footer.html' ?>
+  <?php include './../Footer/footer.html' ?>
 </body>
 </html>
