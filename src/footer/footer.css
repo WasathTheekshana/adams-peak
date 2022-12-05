@@ -2,3 +2,28 @@
     font-weight: bold;
     color: seagreen;
 }
+
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to right, #0D0D0D, #000000);
+    color: #ffffff;
+    padding: 100px 0 30px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.footer-row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer-col1{
+    flex-basis: 25%;
+    padding: 10px;
+}
