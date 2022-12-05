@@ -10,6 +10,6 @@ https://www.figma.com/file/7CaHnJHLLITPwpmfuQ0M6e/Sri-Padaya-Web-Site-UI?node-id
 
 <li>Open XAMPP control panel and start both Apache and MySQL</li>
 
-<li>Open your favourite web browser and type the following in url <a href="localhost/adams-peak/src/main.php">localhost/adams-peak/src/main.php</a> (following url will open main.php page, to open another web page give the path clearly)</li>
+<li>Open your favourite web browser and type the following in url [localhost/adams-peak/src/main.php](localhost/adams-peak/src/main.php) (following url will open main.php page, to open another web page give the path clearly)</li>
 
 </ol>
