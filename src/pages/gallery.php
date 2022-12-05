@@ -8,6 +8,9 @@
 </head>
 <body>
   <?php include './../navBar/navBar.html' ?>
+  <h1>
+    Gallery
+  </h1>
 
   <?php include './../Footer/footer.html' ?>
 </body>
