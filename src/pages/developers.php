@@ -7,8 +7,11 @@
     <title>About Us</title>
 </head>
 <body>
-  <?php include './navBar/navBar.html' ?>
+    <?php include './../navBar/navBar.html' ?>
+      <h1>Developers</h1> <!-- remove this line when developing -->
+    <?php include './../Footer/footer.html' ?>
+  <?php include './../navBar/navBar.html' ?>
     <h1>Developers</h1> <!-- remove this line when developing -->
-  <?php include './Footer/footer.html' ?>
+  <?php include './../Footer/footer.html' ?>
 </body>
 </html>

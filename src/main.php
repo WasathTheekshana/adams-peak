@@ -5,15 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sri Padaya</title>
-    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
+  
   <?php include './navBar/navBar.html' ?>
-
-<h1 class="text-3xl font-bold underline text-center ">
-    Hello world
-  </h1>
-
+  <?php include './components/hero.html' ?>
+  <?php include './components/intro.html' ?>
+  <?php include './components/hero.html' ?>
+  <?php include './components/homeGallery.html' ?>
+  <?php include './components/forum.html' ?>
   <?php include './footer/footer.html' ?>
+  <p class="font-bold font-montserrat">dfsgsdfg</p>
+
+
 </body>
 </html>
