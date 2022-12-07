@@ -1,2 +1,7 @@
-@import url(./dist/output.css);
+@import url(./global.css);
+@import url(./navBar/navBar.css);
+@import url(./components/hero.css);
+@import url(./components/intro.css);
+@import url(./components/homeGallery.css);
+@import url(./components/forum.css);
 @import url(./footer/footer.css);
