@@ -1,0 +1,21 @@
+{
+  "name": "adams-peak",
+  "version": "1.0.0",
+  "description": "<h2>Figma File</h2>\r https://www.figma.com/file/7CaHnJHLLITPwpmfuQ0M6e/Sri-Padaya-Web-Site-UI?node-id=0%3A1&t=EvXXjZsvB7vff6qQ-3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "php -S localhost:5500"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WasathTheekshana/adams-peak.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WasathTheekshana/adams-peak/issues"
+  },
+  "homepage": "https://github.com/WasathTheekshana/adams-peak#readme"
+}
