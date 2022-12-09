@@ -12,7 +12,7 @@
   <?php include './navBar/navBar.html' ?>
   <?php include './components/hero.html' ?>
   <?php include './components/intro.html' ?>
-  <!-- <?php include './components/homeGallery.html' ?> -->
+  <?php include './components/homeGallery.html' ?>
   <?php include './components/forum.html' ?>
   <?php include './footer/footer.html' ?>
 
