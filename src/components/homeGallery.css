@@ -32,12 +32,7 @@
     position: relative;
 }
 
-@media screen and (max-width: 480px) {
-    .container-card .card{
-       width: 50vw;
-       height: 30vh;
-    }
-  }
+
 
 .container-card .card h3{
     color: white;
@@ -46,11 +41,7 @@
     margin: 0;
 }
 
-@media screen and (max-width: 480px) {
-    .container-card .card h3{
-        font-size: 2rem;
-    }
-  }
+
 
 .container-card .card p{
     color: white;
@@ -61,11 +52,7 @@
     padding-right: 30px;
 }
 
-@media screen and (max-width: 480px) {
-    .container-card .card p{
-        font-size: 0.7rem;
-    }
-  }
+
 
 .container-card .card button{
     background: linear-gradient(93.97deg, #D9D9D9 -173.88%, rgba(217, 217, 217, 0) 214.31%);
@@ -78,12 +65,21 @@
     font-size: 1rem;
 }
 
-
-
 .container-card .card button:hover{
     cursor: pointer;
     
 }
 
+@media screen and (max-width: 480px) {
+    .container-card .card{
+       width: 77vw;
+       height: 45vh;
+    }
 
-
+    .container-card .card p{
+        font-size: 0.7rem;
+    }
+    .container-card .card h3{
+        font-size: 2rem;
+    }
+  }
