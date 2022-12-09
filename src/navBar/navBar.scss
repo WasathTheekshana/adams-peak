@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap");
+
+.navbarSection{
+  margin: 0;
+  padding: 0;
+  background: black; //romove this later
+  font-family: "montserrat";
+
+}
+
+.navbar {
+  padding: 1em;
+
+  .logoimage {
+    height: 30px;
+    width: 90px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  nav {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    place-content: space-between;
+    margin: 1em 5%;
+  }
+
+  .mobile-menu {
+    cursor: pointer;
+    width: 1.5em;
+  }
+}
+
+a {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav.menu-button {
+  display: block;
+}
+
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 40%;
+  right: 0;
+  top: 0;
+  background: rgba(128, 128, 128);
+  height: 100vh;
+  padding: 1em;
+
+  ul {
+    padding-top: 5em;
+  }
+
+  li {
+    a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      padding: 0.5em;
+      font-size: 1.3em;
+      text-align: right;
+      width: 106px;
+
+      &:hover {
+        font-weight: bold;
+        transition: 0.3s;
+      }
+    }
+  }
+}
+
+.mobile-menu-exit {
+  margin-bottom: 5em;
+  float: right;
+  margin: 0.5em;
+  cursor: pointer;
+  margin-top: 1.5em;
+}
+
+@media only screen and (min-width: 840px) {
+  .mobile-menu,
+  .mobile-menu-exit {
+    display: none;
+  }
+
+  .navbar .container {
+    display: grid;
+    grid-template-columns: 180px auto;
+    justify-content: space-between;
+    height: 70px;
+    margin-top: 1.5em;
+
+    .logoimage {
+      height: 30px;
+      width: 8em;
+      // margin-left: 3em;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .navbar nav {
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 1em 0 0 0;
+    // margin-right: 3em;
+    font-size: 1.2em;
+
+    ul {
+      display: flex;
+    }
+
+    a {
+      font-size: 1em;
+      padding: 0.1em 1em;
+      position: relative;
+    }
+
+    // a:after{
+    //     content: "";
+    //     position: absolute;
+    //     background-color: white;
+    //     height: 3px;
+    //     width: 0;
+    //     left: 0;
+    //     bottom: -10px;
+    //     transition: 0.3s;
+    // }
+
+    // a:hover:after{
+    //     width: 100%;
+    // }
+
+    ul {
+      margin-top: 0;
+      padding: 0;
+    }
+  }
+}
