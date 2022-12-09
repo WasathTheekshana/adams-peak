@@ -22,6 +22,8 @@ footer .container-div{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .logosec-part1{
@@ -165,13 +167,15 @@ footer .container-div{
         padding: 40px;
     }
     footer .container-div{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr);   
     }
+
     .copyright{
         padding: 8px 40px;
         display: flex;
         flex-direction: column;
     }
+
 }
 
 @media (max-width: 768px){
@@ -233,3 +237,4 @@ footer .container-div{
         width: 100%;
     }
 }
+
