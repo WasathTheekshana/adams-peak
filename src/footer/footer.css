@@ -1,7 +1,6 @@
 .footer-main-div{
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat';
     color: white;
     font-weight: lighter;
     box-sizing: border-box;
@@ -124,7 +123,6 @@ footer .container-div{
     border-radius: 10px;
     width: 204px;
     height: 48px;
-    font-family: 'Montserrat';
     font-weight: normal;
     color: #ffffff;
     font-size: 16px;
@@ -152,6 +150,7 @@ footer .container-div{
     line-height: 10px;
     position: relative;
 }
+
 
 .allright{
     text-align: left;
