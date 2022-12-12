@@ -1,0 +1,242 @@
+@import url(../global.css);
+
+:root{
+    --shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 8px 16px rgba(0, 0, 0, 0.08)
+}
+
+button:hover{
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    box-shadow: 0px 7px 10px rgba(80, 80, 80, 0.4);
+    color: #fff;
+    transform: translatex(7px);
+    transition: all 0.3s ease 0s;  
+}
+
+
+
+button{
+    transition: all 0.3s ease 0s;
+}
+
+.intro{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.introsection{
+    padding: 0;
+    margin: 0;
+}
+
+.topic1{
+    font-size: 60px;
+}
+
+.topic1-part1{
+    font-weight: 500;
+}
+
+.topic1-part2{
+    font-weight: 300;
+}
+
+.description1{
+    padding-top: 15px;
+    padding-bottom: 25px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.button1 button{
+    background: linear-gradient(93.66deg, #000000 -109.29%, rgba(46, 46, 46, 0.56) 298.88%);
+    border-radius: 10px;
+    width: 180px;
+    height: 50px;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 10px;
+    justify-content: center;
+    border: none;
+}
+
+.button1 button a{
+    text-decoration: none;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.row1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.row1-col1{
+    flex-basis: 50%;
+    min-width: 300px;
+    align-items: center;
+    text-align: left;
+}
+
+.row1-col2{
+    flex-basis: 50%;
+    min-width: 300px;
+    align-items: center;
+    text-align: right;
+}
+
+.row1-col2 img{
+    max-width: 100%;
+    padding: 50px 0;
+    width: 550px;
+}
+
+.row2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.row2-col1{
+    flex-basis: 50%;
+    min-width: 300px;
+    align-items: center;
+    text-align: left;
+}
+
+.part1{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.part2{
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.row2-col2{
+    flex-basis: 50%;
+    min-width: 300px;
+    align-items: center;
+    text-align: left;
+}
+
+.topic2{
+    padding-top: 60px;
+    font-size: 60px;
+}
+
+.topic2-part1{
+    font-weight: 500;
+}
+
+.topic2-part2{
+    font-weight: 300;
+}
+
+.description2{
+    padding-top: 15px;
+    padding-bottom: 25px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.button2 button{
+    background: linear-gradient(93.66deg, #000000 -109.29%, rgba(46, 46, 46, 0.56) 298.88%);
+    border-radius: 10px;
+    width: 180px;
+    height: 50px;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 10px;
+    justify-content: center;
+    border: none;
+}
+
+.button2 button a{
+    text-decoration: none;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.row3{
+    background-image: url(../../public/quotepic.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+
+}
+
+.quote{
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+.quote-para{
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+.quote-author{
+    font-size: 1rem;
+    font-weight: 500;
+    padding-top: 40px;
+}
+
+@media (max-width: 991px){
+    .introsection{
+        
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 768px){
+    .introsection{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .row2-col1{
+        text-align: center;
+    }
+    
+    .row3{
+        width: 100vw;
+        height: 60vh;
+    }
+
+    .quote-para {
+        font-size: 1.4rem !important;
+        line-height: 2rem;
+        text-align: center;
+        color: #ffffff;
+        padding: 20px;
+ 
+    }
+
+    .quote-author{
+        font-size: smaller;
+        font-weight: 500;
+        padding-top: 40px;
+    }
+    
+    .intro{
+        justify-content: center;
+        align-items: center;
+    }
+}

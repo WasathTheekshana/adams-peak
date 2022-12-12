@@ -8,9 +8,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url('https://source.unsplash.com/random');
+    background: url('../../public/gallerySectionimg.svg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+
 }
 
 
@@ -70,10 +73,94 @@
     
 }
 
+.gallery-images{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+    
+   
+}
+
+.item{
+    background-color: lightblue;
+    padding: 1rem;
+    border: 1px solid blue;
+}
+
+.item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.item1 img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.item2 img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+.item3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.item3 img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+.item4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.item4 img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+.item5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.item5 img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+.item6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.item6 img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
 @media screen and (max-width: 480px) {
     .container-card .card{
-       width: 77vw;
-       height: 45vh;
+       width: 65vw;
+       height: 38vh;
     }
 
     .container-card .card p{
@@ -81,5 +168,11 @@
     }
     .container-card .card h3{
         font-size: 2rem;
+    }
+    .container-card .card button{
+        width: 144px;
+        height: 42px;
+        font-size: 1rem;
+        border-radius: 6px;
     }
   }
