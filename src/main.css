@@ -1,13 +1,11 @@
-@import url(./global.css);
-@import url(./navBar/navBar.css);
-@import url(./components/hero.css);
-@import url(./components/intro.css);
-@import url(./components/homeGallery.css);
-@import url(./components/forum.css);
-@import url(./footer/footer.css);
+@import './global.css';
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
 }
