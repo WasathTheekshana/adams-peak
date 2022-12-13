@@ -133,9 +133,14 @@ button{
     font-size: 60px;
 }
 
-.topic2-part1{
+.topic2-part1 > span{
     font-weight: 500;
 }
+
+.topic2-part1 .one{
+    font-weight: 300;
+}
+
 
 .topic2-part2{
     font-weight: 300;
