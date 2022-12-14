@@ -184,7 +184,7 @@ nav li a:hover {
     color: white;
   }
   .hero-section .container .hero-title h1 {
-    font-size: 8em;
+    font-size: 8rem;
     font-weight: 300;
   }
   .hero-section .container p {
@@ -208,5 +208,13 @@ nav li a:hover {
 @media only screen and (max-width: 500px) {
   .container-hero {
     height: 80vh;
+  }
+}
+@media only screen and (max-width: 1367px) and (min-width: 500px) {
+  .hero-section .container {
+    padding-top: 1%;
+  }
+  .hero-section .container .hero-title h1 {
+    font-size: 5rem;
   }
 }/*# sourceMappingURL=index.css.map */
