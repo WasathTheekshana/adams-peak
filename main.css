@@ -1,4 +1,4 @@
-@import './global.css';
+@import '/src/css/global.css';
 * {
   margin: 0;
   padding: 0;
