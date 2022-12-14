@@ -2,7 +2,6 @@
 .navbarSection {
   margin: 0;
   padding: 0;
-  background: black;
   font-family: "montserrat";
 }
 
@@ -49,7 +48,6 @@ nav {
   width: 40%;
   right: 0;
   top: 0;
-  background: rgb(128, 128, 128);
   height: 100vh;
   padding: 1em;
 }

@@ -6,7 +6,10 @@
     box-sizing: border-box;
     display: grid;
     align-content: end;
+    width: 100vw;
 }
+
+
 
 footer{
     background: linear-gradient(to right, #0D0D0D, #000000);
