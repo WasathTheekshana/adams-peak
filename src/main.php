@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sri Padaya</title>
+    <link rel="icon" type="image/x-icon" href="/public/WebsiteLogo.svg">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
@@ -15,6 +16,7 @@
   <?php include './components/homeGallery.html' ?>
   <?php include './components/forum.html' ?>
   <?php include './footer/footer.html' ?>
+  <script src="main.js"></script>
 
 </body>
 </html>
