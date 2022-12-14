@@ -217,4 +217,7 @@ nav li a:hover {
   .hero-section .container .hero-title h1 {
     font-size: 5rem;
   }
+  .hero-section .container .sinhala-font-container img {
+    width: 16em;
+  }
 }/*# sourceMappingURL=index.css.map */
