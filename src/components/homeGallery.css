@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .container-card{
     font-family: 'Montserrat';
@@ -21,7 +20,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
     text-align: center;
     width: 350px;
     height: 400px;
@@ -32,7 +30,6 @@
     backdrop-filter: blur(25px);
     padding: 30px;
     border: 0.5px solid white;
-    position: relative;
 }
 
 
@@ -73,89 +70,6 @@
     
 }
 
-.gallery-images{
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
-    gap: 10px;
-    
-   
-}
-
-.item{
-    background-color: lightblue;
-    padding: 1rem;
-    border: 1px solid blue;
-}
-
-.item1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    
-}
-
-.item1 img{
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
-}
-
-.item2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden
-}
-.item2 img{
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
-}
-.item3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden
-}
-.item3 img{
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
-}
-.item4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden
-}
-.item4 img{
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
-}
-.item5{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden
-}
-.item5 img{
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
-}
-.item6{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden
-}
-.item6 img{
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
-}
 
 @media screen and (max-width: 480px) {
     .container-card .card{

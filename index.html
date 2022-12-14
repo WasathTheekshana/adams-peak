@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sri Padaya</title>
+  <link rel="stylesheet" href="/src/css/index.css">
+</head>
+
+<body>
+
+
+  <!-------------------- Hero Section -------------------->
+  <div class="container-hero">
+
+    <!-------------------- navBar Section -------------------->
+    <div class="navbar">
+      <div class="container">
+        <div class="logoimage">
+          <a class="logo" href="#"><img src="../../public/WebsiteLogo.svg" alt="logo" class="site-logo-img" /></a>
+        </div>
+        <img id="mobile-cta" class="mobile-menu" src="../../public/menuwhite.svg" alt="Open navigation menu" />
+
+        <nav>
+          <img id="mobile-exit" class="mobile-menu-exit" src="../../public/exit.svg" alt="close navigation" />
+
+          <ul class="nav-items">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Routes</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </nav>
+        <script>
+
+          const mobileBtn = document.getElementById("mobile-cta");
+          nav = document.querySelector("nav");
+          mobileBtnExit = document.getElementById("mobile-exit");
+
+          mobileBtn.addEventListener("click", () => {
+            nav.classList.add("menu-button");
+          });
+
+          mobileBtnExit.addEventListener("click", () => {
+            nav.classList.remove("menu-button");
+          });
+        </script>
+      </div>
+    </div>
+
+    <!-------------------- navBar Section end -------------------->
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-title">
+          <h1>Adam's Peak</h1>
+        </div>
+        <div class="sinhala-font-container">
+          <img class="sinhala-font" src="/public/sinhala.svg" alt="" />
+        </div>
+        <div class="content">
+          <p>
+            Adam’s Peak is one of the most iconic heritages in Sri Lanka. This
+            conical mountain is located in the <br> Sabaragamuwa Province. It is also
+            known as “Samanala Kanda”. This has a history of more than thousand <br>
+            years. People of all four main religions in Sri Lanka is truely
+            believe that there are some miracles are still <br> happening at the
+            sacred footprint on top of the mountain. Sri Pada is the only
+            mountain in the world that <br> receives benefactions and veneration of
+            devotees belonging to different faiths.
+          </p>
+        </div>
+
+        <div class="hero-button">
+          <button>Explore More</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-------------------- Hero Section End -------------------->
+
+
+
+
+
+
+  <!-------------------- Intro Section -------------------->
+
+
+  <div class="introsection">
+    <div class="intro">
+        <div class="row1">
+            <div class="row1-col1">
+                <div class="topic1">
+                    <div class="topic1-part1">
+                        <span>Adam's Peak</span>
+                    </div>
+                    <div class="topic1-part2">
+                        <span>is the,</span>
+                    </div>
+                </div>
+                <div class="description1">
+                    <p>Only mountain in the world that receives benefactions
+                        and veneration of devotees belonging to different faiths.
+                        This is 2,243m tall. It is well known for the Sri Pada,
+                        i.e., "sacred footprint", a 1.8 m rock formation near
+                        the summit, which in Buddhist tradition is held to be
+                        footprint of Buddha. Portuguese Christians believed St
+                        Thomas and the eunuch of Candace, queen of Ethiopia.</p>
+                </div>
+                <div class="button1">
+                    <button><a href="#">Read more</a></button>
+                </div>
+            </div>
+            <div class="row1-col2">
+                <img src="../../public/intropic1.svg">
+            </div>
+        </div>
+        <div class="row2">
+
+            <div class="row2-col1">
+                <div class="part1">
+                    <span>Coordinates</span>
+                </div>
+                <div class="part2">
+                    <span>6.8096° N, 80.4994° E</span>
+                </div>
+            </div>
+
+            <div class="row2-col2">
+                <div class="topic2">
+                    <div class="topic2-part1">
+                        <span>6 trails</span>, <span class="one">One</span>
+                    </div>
+                    <div class="topic2-part2">
+                        <span>Sacred location.</span>
+                    </div>
+                </div>
+
+                <div class="description2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
+                    massa mi. Aliquam in hendrerit urna. Pellentesque sit amet
+                    sapien fringilla, mattis ligula consectetur, ultrices mauris.
+                    Maecenas vitae mattis tellus. Nullam quis imperdiet augue.
+                    Vestibulum auctor ornare leo, non suscipit magna interdum eu.
+                    Curabitur pellentesque nibh nibh, at maximus ante fermentum sit
+                    amet.
+                </div>
+
+                <div class="button2">
+                    <button><a href="#">View Routes</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+  <!-------------------- Intro Section End -------------------->
+
+  <!-------------------- Quote Section -------------------->
+
+  <div class="row3-img">
+    <div class="quote">
+        <div class="quote-para">
+            <span>“The temple is a point of intersection between heaven <br> and earth.
+                In this sacred place, holy work will be <br> performed through selfless
+                service and love. The temple <br> reminds of all that is good and beautiful
+                in the world.”</span>
+        </div>
+        <div class="quote-author">
+            <span>David A. Bednar</span>
+        </div>
+    </div>
+
+  <!-------------------- Quote Section End -------------------->
+
+  <!-------------------- Forum Section -------------------->
+  <!-------------------- Forum Section End -------------------->
+
+  <!-------------------- Footer Section -------------------->
+  <!-------------------- Footer Section End -------------------->
+
+</body>
+
+</html>

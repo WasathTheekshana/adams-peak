@@ -4,33 +4,21 @@
     --shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 8px 16px rgba(0, 0, 0, 0.08)
 }
 
-button:hover{
-    box-shadow: var(--shadow);
-    cursor: pointer;
-    box-shadow: 0px 7px 10px rgba(80, 80, 80, 0.4);
-    color: #fff;
-    transform: translatex(7px);
-    transition: all 0.3s ease 0s;  
-}
 
-
-
-button{
-    transition: all 0.3s ease 0s;
-}
 
 .intro{
     max-width: 1300px;
+    height: 100vh;
     margin: auto;
     padding-left: 50px;
     padding-right: 50px;
-    margin-top: 8rem;
-    margin-bottom: 8rem;
+    margin-top: 4rem;
 }
 
 .introsection{
     padding: 0;
     margin: 0;
+    min-height: 100vh;
 }
 
 .topic1{
@@ -133,9 +121,12 @@ button{
     font-size: 60px;
 }
 
-.topic2-part1{
-    font-weight: 500;
+
+
+.topic2-part1 .one{
+    font-weight: 300;
 }
+
 
 .topic2-part2{
     font-weight: 300;
@@ -166,74 +157,25 @@ button{
     color: #ffffff;
 }
 
-.row3{
-    background-image: url(../../public/quotepic.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vw;
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    position: relative;
 
-}
 
-.quote{
-    position: absolute;
-    justify-content: center;
-    text-align: center;
-    color: #ffffff;
-    
-}
-
-.quote-para{
-    font-size: 2.5rem;
-    font-weight: 200;
-}
-
-.quote-author{
-    font-size: 1rem;
-    font-weight: 500;
-    padding-top: 40px;
-}
 
 @media (max-width: 991px){
     .introsection{
         
-        grid-template-columns: repeat(2,1fr);
+       
     }
 }
 
 @media (max-width: 768px){
     .introsection{
-        grid-template-columns: repeat(1,1fr);
+       
+
     }
     .row2-col1{
         text-align: center;
     }
     
-    .row3{
-        width: 100vw;
-        height: 60vh;
-    }
-
-    .quote-para {
-        font-size: 1.4rem !important;
-        line-height: 2rem;
-        text-align: center;
-        color: #ffffff;
-        padding: 20px;
- 
-    }
-
-    .quote-author{
-        font-size: smaller;
-        font-weight: 500;
-        padding-top: 40px;
-    }
     
     .intro{
         justify-content: center;
