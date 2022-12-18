@@ -11,6 +11,10 @@
   box-sizing: border-box;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 button:hover{
   box-shadow: var(--shadow);
   cursor: pointer;
