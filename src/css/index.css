@@ -102,8 +102,8 @@
 .intro-section-container {
   background-color: white;
   padding-top: 8.33%;
-  padding-right: 8.33%;
-  padding-left: 8.33%;
+  padding-right: 15%;
+  padding-left: 15%;
   padding-bottom: 8.33%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
