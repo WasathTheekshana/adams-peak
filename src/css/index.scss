@@ -63,17 +63,17 @@
 @media (max-width: 600px) {
 
   .hero-section {
-    padding-bottom: 127px;
+    padding-bottom: 68px;
   }
 
   .hero-content {
     width: 100%;
-    margin-top: 79px;
+    margin-top: 68px;
   }
 
 
   .english-title {
-    font-size: 10.2vw;
+    font-size: 12.2vw;
     padding: 0 !important;
   }
 
@@ -83,7 +83,7 @@
   }
 
   .sinhala-title {
-    width: 40%;
+    width: 50%;
     padding-top: 0 !important;
     margin: 0 !important;
   }
@@ -106,7 +106,7 @@
     border-radius: 10px;
     width: 45%;
     padding: 0.9em 0.3em;
-    margin-top: 19px;
+    margin-top: 32px;
     text-align: center;
   }
 
@@ -220,7 +220,7 @@
     }
 
     button{
-      width: 40%;
+      width: 50%;
       padding-top: 1em;
       padding-bottom: 1em;
       font-size: 0.8rem;
@@ -264,7 +264,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 800px;
+  min-height: 700px;
   max-height: auto;
   padding: 2rem 10rem 2rem 10rem;
   color: white;
@@ -279,8 +279,7 @@
   }
 
   p{
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 2rem;
     color: rgba(255, 255, 255, 0.66);
   }
 
@@ -291,15 +290,14 @@
     padding: 1rem 5rem 1rem 5rem;
 
     h3{
-      font-size: 1.5rem;
+      font-size: 1.6rem;
       font-weight: 300;
       color: white;
       text-align: center;
     }
   
     p{
-      padding-top: 4rem;
-      padding-bottom: 4rem;
+      padding-top: 2rem;
       color: rgba(255, 255, 255, 0.66);
     }
   }
