@@ -1,5 +1,5 @@
-@import '/src/css/global.css';
-@import '../navBar/navBar.css';
+@import "/src/css/global.css";
+@import "../navBar/navBar.css";
 .hero-section {
   background-image: url(/public/Hero-Image.png);
   background-position: center;
@@ -45,7 +45,7 @@
 }
 
 .hero-button {
-  background: linear-gradient(93.97deg, #D9D9D9 -173.88%, rgba(217, 217, 217, 0) 214.31%);
+  background: linear-gradient(93.97deg, #d9d9d9 -173.88%, rgba(217, 217, 217, 0) 214.31%);
   border-radius: 10px;
   width: 15%;
   padding-top: 1em;
@@ -250,4 +250,62 @@
     padding-top: 2rem;
     color: rgba(255, 255, 255, 0.66);
   }
+}
+.container-card {
+  font-family: "Montserrat";
+  min-width: 100vw;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("../../public/gallery-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.container-card .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 350px;
+  height: 400px;
+  margin: 30px;
+  box-shadow: 0px 4px 41px 7px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(279.22deg, rgba(153, 153, 153, 0.28) 7.79%, rgba(0, 0, 0, 0.1624) 133.84%);
+  border-radius: 16px;
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
+  padding: 30px;
+  border: 0.5px solid white;
+}
+.container-card .card h3 {
+  color: white;
+  font-weight: 300;
+  font-size: 3rem;
+  margin: 0;
+}
+.container-card .card p {
+  color: white;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.container-card .card button {
+  background: linear-gradient(93.97deg, #D9D9D9 -173.88%, rgba(217, 217, 217, 0) 214.31%);
+  width: 180px;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+}
+
+.container-card .card button:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=index.css.map */
