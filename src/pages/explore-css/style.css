@@ -1,0 +1,87 @@
+
+
+
+.slide-container{
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 0;
+  margin-bottom: 5rem;
+
+}
+.slide-content{
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.card{
+  border-radius: 25px;
+  background-color: #FFF;
+  max-height: auto;
+}
+
+.card-content{
+  height: 400px;
+  background: linear-gradient(309.6deg, #FFFFFF -24.28%, #F3F3F3 131.49%);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 8px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 14px;
+}
+
+.name{
+  text-align: center;
+  font-size: 3em;
+  font-weight: 600;
+  color: #000000;
+  opacity: 0.1;
+ 
+}
+.description{
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+
+.description ul{
+  line-height: 1.7rem;
+  font-size: 14px;
+}
+
+.swiper-navBtn{
+  color: #949494 !important;
+  transition: color 0.3s ease;
+}
+.swiper-navBtn:hover{
+  color: #000000;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 35px;
+}
+.swiper-button-next{
+  right: 0;
+}
+.swiper-button-prev{
+  left: 0;
+}
+.swiper-pagination-bullet{
+  background-color: #2c2c2c !important; 
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content{
+    margin: 12 10px;
+  }
+  .swiper-navBtn{
+    display: none !important;
+  }
+
+  
+}
