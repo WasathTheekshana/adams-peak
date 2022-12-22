@@ -7,6 +7,7 @@
     display: grid;
     align-content: end;
     width: 100vw;
+    font-weight: 400;
 }
 
 
@@ -43,7 +44,7 @@ footer .container-div{
     height: 15px;
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: lighter;
+    font-weight: 400;
     font-size: 10px;
     line-height: 15px;
     justify-content: center;
