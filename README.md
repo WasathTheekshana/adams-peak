@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b80b7347-f1a1-458b-b839-afa397148780/deploy-status)](https://app.netlify.com/sites/yasith/deploys)
+
 <h2>Figma File</h2>
 https://www.figma.com/file/7CaHnJHLLITPwpmfuQ0M6e/Sri-Padaya-Web-Site-UI?node-id=0%3A1&t=EvXXjZsvB7vff6qQ-3
 

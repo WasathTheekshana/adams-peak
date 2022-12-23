@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins&display=swap");
+.hero-section {
+  height: 100vh;
+}
+.hero-section .container {
+  padding: 50% 10% 10% 10%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.hero-section .container .hero-title h1 {
+  font-size: 2.5em;
+  font-weight: 300;
+}
+.hero-section .container .content {
+  font-size: x-small;
+}
+.hero-section button {
+  margin-top: 2em;
+  background: linear-gradient(93.97deg, #d9d9d9 -173.88%, rgba(217, 217, 217, 0) 214.31%);
+  width: 180px;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 1em;
+}
+
+.intro {
+  height: 1080px;
+}
+
+@media only screen and (min-width: 500px) {
+  .hero-section .container {
+    padding: 15% 10% 10% 10%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  .hero-section .container .hero-title h1 {
+    font-size: 5em;
+    font-weight: 300;
+  }
+  .hero-section .container .content {
+    font-size: small;
+  }
+}/*# sourceMappingURL=hero.css.map */

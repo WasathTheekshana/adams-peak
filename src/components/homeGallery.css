@@ -1,0 +1,92 @@
+
+.container-card{
+    font-family: 'Montserrat';
+    min-width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('../../public/gallerySectionimg.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+
+}
+
+
+.container-card .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 0px 4px 41px 7px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(279.22deg, rgba(153, 153, 153, 0.28) 7.79%, rgba(0, 0, 0, 0.1624) 133.84%);
+    border-radius: 16px;
+    backdrop-filter: blur(25px);
+    padding: 30px;
+    border: 0.5px solid white;
+}
+
+
+
+.container-card .card h3{
+    color: white;
+    font-weight: 300;
+    font-size: 3rem;
+    margin: 0;
+}
+
+
+
+.container-card .card p{
+    color: white;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+
+.container-card .card button{
+    background: linear-gradient(93.97deg, #D9D9D9 -173.88%, rgba(217, 217, 217, 0) 214.31%);
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+
+.container-card .card button:hover{
+    cursor: pointer;
+    
+}
+
+
+@media screen and (max-width: 480px) {
+    .container-card .card{
+       width: 65vw;
+       height: 38vh;
+    }
+
+    .container-card .card p{
+        font-size: 0.7rem;
+    }
+    .container-card .card h3{
+        font-size: 2rem;
+    }
+    .container-card .card button{
+        width: 144px;
+        height: 42px;
+        font-size: 1rem;
+        border-radius: 6px;
+    }
+  }
