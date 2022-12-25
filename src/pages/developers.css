@@ -1,14 +1,7 @@
-@import url(./../global.css);
-@import url(./../navBar/navBar.css);
-@import url(./../footer/footer.css);
+@import url(/src/css/global.css);
+@import url(/src/footer/footer.css);
+@import url(/src/navBar/navBar.css);
 
-*{
-    font-family: 'Montserrat';
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-weight: lighter;
-}
 
 body{
     background-color: #000000;
