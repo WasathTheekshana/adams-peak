@@ -13,41 +13,9 @@
 <body>
 
   <div class="explore-main-section">
-    <div class="navbar">
-      <div class="container">
-        <div class="logoimage">
-          <a class="logo" href="#"><img src="../../public/WebsiteLogo.svg" alt="logo" class="site-logo-img" /></a>
-        </div>
-        <img id="mobile-cta" class="mobile-menu" src="../../public/menuwhite.svg" alt="Open navigation menu" />
 
-        <nav>
-          <img id="mobile-exit" class="mobile-menu-exit" src="../../public/exit.svg" alt="close navigation" />
+    <?php include '../navBar/navBar.php';?> 
 
-          <ul class="nav-items">
-            <li><a href="../../index.html">Home</a></li>
-            <li><a href="../pages/explore.html">Explore</a></li>
-            <li><a href="#">History</a></li>
-            <li><a href="#">Routes</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contacts</a></li>
-          </ul>
-        </nav>
-        <script>
-
-          const mobileBtn = document.getElementById("mobile-cta");
-          nav = document.querySelector("nav");
-          mobileBtnExit = document.getElementById("mobile-exit");
-
-          mobileBtn.addEventListener("click", () => {
-            nav.classList.add("menu-button");
-          });
-
-          mobileBtnExit.addEventListener("click", () => {
-            nav.classList.remove("menu-button");
-          });
-        </script>
-      </div>
-    </div>
     <div class="explore-title">
       <h3>Let's Explore</h3>
     </div>
@@ -196,64 +164,7 @@
 
 
     
-    <div class="footer-main-div">
-      <footer>
-          <div class="container-div">
-              <div class="logosec">
-                  <div class="logosec-part1">
-                      <img src="../../public/WebsiteLogo.svg" class="mainlogo">
-                  </div>
-                  <div class="logosec-part2">
-                      Sri Padaya, The Sacred Footprint
-                  </div>
-              </div>
-              <div class="menusec">
-                  <ul>
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">Explore</a></li>
-                      <li><a href="#">History</a></li>
-                      <li><a href="#">Routes</a></li>
-                      <li><a href="#">Gallery</a></li>
-                      <li><a href="#">Contacts</a></li>
-                  </ul>
-              </div>
-              <div class="contactsec">
-                  <ul class="contactinfo">
-                      <li>
-                          <span><img src="../../public/LocationLogo.svg" class="Locationlogo"></span>
-                          <span><a href="https://goo.gl/maps/cXiRhrKMhjoNBhYR8">Sri Pada, Sri Lanka</a></span>
-                      </li>
-                      <li>
-                          <span><img src="../../public/ContactLogo.svg" class="Contactlogo"></span>
-                          <span><a href="tel:1912">Tourism Hotline : 1912</a></span>
-                      </li>
-                      <li>
-                          <span><img src="../../public/PoliceLogo.svg" class="Policelogo"></span>
-                          <span>Sri Lanka Tourism Police<br>
-                              :<a href="tel:+94112421052"> +94 11 242 1052</a></span>
-                      </li>
-                  </ul>
-              </div>
-              <div class="buttonsec">
-                  <div class="buttonsec-part1">
-                      Get some information<br>about this project
-                  </div>
-                  <div class="buttonsec-part2">
-                      <button><a href="#">Meet the developers</a></button>
-                  </div>
-              </div>
-          </div>
-      </footer>
-      <div class="copyright">
-          <div class="allright">
-              <span>Sri Padaya Sri Lanka 2020 - 2022 All Right Reserved - Sri padaya devotees made web site 🤍</span>
-          </div>
-          <div class="privacypolicy">
-              <span>Privacy Policy | Project by NSBM Undergraduates</span>
-          </div>
-      </div>
-      
-  </div>
+    <?php include '../footer/footer.php';?> 
   
     
 </body>

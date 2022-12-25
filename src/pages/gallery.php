@@ -55,7 +55,8 @@
     <img src="#" style="width:100%">
   </div> -->
 </div>
+</div>
+<?php include '../footer/footer.php' ?>
 
-  <?php include './../Footer/footer.html' ?>
 </body>
 </html>
