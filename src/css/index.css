@@ -1,5 +1,7 @@
 @import "/src/css/global.css";
 @import "../navBar/navBar.css";
+@import "/src/components/forum/forum.css";
+
 .hero-section {
   background-image: url(/public/Hero-Image.png);
   background-position: center;

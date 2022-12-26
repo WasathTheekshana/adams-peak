@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sri Padaya</title>
   <link rel="stylesheet" href="/src/css/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="/src/components/forum/forum.js"></script>
 </head>
 
 <body>
@@ -107,6 +110,7 @@
   <!-------------------- Gallery Section End -------------------->
 
   <!-------------------- Forum Section -------------------->
+  <?php include './src/components/forum/forum.php'?>
   <!-------------------- Forum Section End -------------------->
 
   <!-------------------- Footer Section -------------------->
