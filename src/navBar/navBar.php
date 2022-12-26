@@ -15,7 +15,7 @@
 <div class="navbar">
   <div class="container">
     <div class="logoimage">
-      <a class="logo" href="#"><img src="../../public/WebsiteLogo.svg" alt="logo" class="site-logo-img" /></a>
+      <a class="logo" href="/index.php"><img src="../../public/WebsiteLogo.svg" alt="logo" class="site-logo-img" /></a>
     </div>
     <img id="mobile-cta" class="mobile-menu" src="../../public/menuwhite.svg" alt="Open navigation menu" />
 
@@ -23,12 +23,12 @@
       <img id="mobile-exit" class="mobile-menu-exit" src="../../public/exit.svg" alt="close navigation" />
 
       <ul class="nav-items">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Explore</a></li>
-        <li><a href="#">History</a></li>
-        <li><a href="#">Routes</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Contacts</a></li>
+        <li><a href="/index.php">Home</a></li>
+        <li><a href="/src/pages/explore.php">Explore</a></li>
+        <li><a href="/src/pages/history.php">History</a></li>
+        <li><a href="/src/pages/routes.php">Routes</a></li>
+        <li><a href="/src/pages/gallery.php">Gallery</a></li>
+        <li><a href="/src/pages/developers.php">Contacts</a></li>
       </ul>
     </nav>
     <script>
