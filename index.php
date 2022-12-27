@@ -13,8 +13,12 @@
 </head>
 
 <body>
- 
- <!-------------------- Hero Section -------------------->
+
+  <marquee width="1%" direction="left" loop="infinite">
+    *New Sri Pada Season - 7th december 2022 to 5th May 2023
+    </marquee>
+
+  <!-------------------- Hero Section -------------------->
   <div class="container-hero">
     <div class="hero-section">
 
