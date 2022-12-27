@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url(./../navBar/navBar.css);
-@import url(./../footer/footer.css);
-
+@import url(/src/footer/footer.css);
+@import url(/src/navBar/navBar.css);
 body {
   margin: 0;
   padding: 0;
