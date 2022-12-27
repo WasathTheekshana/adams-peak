@@ -1,5 +1,21 @@
 @import "/src/css/global.css";
 @import "../navBar/navBar.css";
+marquee {
+  width: 100vw;
+  height: 44px;
+  background: linear-gradient(93.73deg, #1D3B50 -9.06%, #0C4369 97.83%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  marquee {
+    font-size: medium;
+  }
+}
 .hero-section {
   background-image: url(/public/Hero-Image.png);
   background-position: center;
