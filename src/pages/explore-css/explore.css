@@ -1,0 +1,118 @@
+@import url(../../css/global.css);
+@import url(../../navBar/navBar.css);
+@import url(../../footer/footer.css);
+.explore-main-section {
+  padding-right: 8.33%;
+  padding-left: 8.33%;
+  width: 100%;
+  min-height: 900px;
+  max-height: auto;
+  background-image: url(../../../public/Explore-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.explore-main-section .explore-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 700px;
+  max-height: auto;
+}
+.explore-main-section .explore-title h3 {
+  font-size: 5rem;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .explore-main-section {
+    min-height: 500px !important;
+  }
+  .explore-main-section .explore-title {
+    min-height: 400px;
+  }
+  .explore-main-section .explore-title h3 {
+    font-size: 4rem;
+    margin-bottom: 70px;
+  }
+}
+.explore-content-section {
+  width: 100%;
+  min-height: 1200px;
+  max-height: auto;
+  display: grid;
+  padding-top: 8.33%;
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-bottom: 8.33%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: minmax(400px, auto);
+  gap: 4rem;
+}
+.explore-content-section h3 {
+  font-weight: 300;
+  font-size: 4rem;
+}
+.explore-content-section span {
+  font-weight: 500;
+}
+.explore-content-section p {
+  font-weight: 300;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.explore-content-section .explore-top-right {
+  background-image: url(../../../public/explore-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.explore-content-section .explore-bottom-left {
+  background-image: url(../../../public/explore-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 1000px) {
+  .explore-content-section {
+    grid-template-columns: 1fr;
+    min-height: 200px !important;
+    gap: 3px;
+    margin-top: 4rem;
+  }
+  .explore-content-section h3 {
+    font-size: 3rem;
+  }
+  .explore-content-section p {
+    font-size: 0.9rem;
+  }
+  .explore-content-section .explore-top-right {
+    height: 300px;
+  }
+  .explore-content-section .explore-bottom-left {
+    display: none;
+  }
+}
+.explore-heading {
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-bottom: 5.33%;
+}
+.explore-heading h3 {
+  font-weight: 400;
+  font-size: 5rem;
+}
+.explore-heading span {
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .explore-heading {
+    padding-bottom: 15.33%;
+  }
+  .explore-heading h3 {
+    font-size: 3rem;
+  }
+}/*# sourceMappingURL=explore.css.map */
