@@ -559,6 +559,35 @@ footer .container-div{
   .buttonsec-part1{
       text-align: center;
   }
+<<<<<<< HEAD
+  
+}
+
+//very small screen sizes
+
+@media only screen and (max-width:839px) and (max-height:785px){
+
+  .container-hero{
+    height: 110vh;
+  }
+
+  .intro{
+    min-height: 250vh;
+  }
+
+}
+
+@media only screen and (max-width:839px) and (max-height:640px){
+  .intro{
+    min-height: 290vh;
+  }
+
+  .row3-img{
+    height: 110vh;
+  }
+
+}
+=======
   .buttonsec-part2{
       text-align: center;
   }
@@ -618,3 +647,4 @@ footer .container-div{
 
 
 
+>>>>>>> c34113fd3f7cb3adba69ee6b71d5b29e92356545
