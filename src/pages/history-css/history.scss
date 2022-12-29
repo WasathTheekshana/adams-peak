@@ -1,0 +1,125 @@
+@import url(../../css/global.css);
+@import url(../../footer/footer.css);
+@import url(../../navBar/navBar.css);
+
+
+
+
+.history-main-section{
+    background-image: url(../../../public/historyNewCover.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    padding-left: 8.33%;
+    padding-right: 8.33%;
+    
+    .history-heading-section{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 4rem;
+
+        h2{
+            font-weight: 400;
+        }
+    }
+}
+
+.history-content-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: minmax(600px, auto);
+    margin-left: 8.33%;
+    margin-right: 8.33%;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    gap: 4rem;
+
+    .history-content-1{
+        display: flex;
+        flex-direction: column;
+
+        h2{
+            font-size: 4rem;
+            font-weight: 300;
+            margin-bottom: 2rem;
+
+            span{
+                font-weight: 500;
+            }
+        }
+    }
+
+    .history-content-2{
+        background-image: url(../../../public/historybwImg1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .history-content-3{
+        background-image: url(../../../public/historybwImg2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .history-content-5{
+        height: 400px;
+        background-image: url(../../../public/history-4.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .history-content-6{
+        background-image: url(../../../public/historybwImg2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+}
+
+@media screen and (max-width:800px){
+    .history-content-section{
+        grid-template-columns: 1fr;
+
+        .img{
+            height: 400px;
+        }
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    .history-main-section{
+        height: 500px;
+        
+        .history-heading-section{
+            height: 350px;
+
+            h2{
+                font-size: 3.5rem;
+            }
+        }
+
+    }
+
+    .history-content-section{
+        margin-top: 4rem;
+
+        .history-content-1{
+            h2{
+                font-size: 3rem;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,113 @@
+@import url(../../css/global.css);
+@import url(../../footer/footer.css);
+@import url(../../navBar/navBar.css);
+.developers-heading-section {
+  background-image: url(../../../public/developers-back.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 900px;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  justify-content: center;
+  align-items: center;
+}
+.developers-heading-section .heading-developers {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.developers-heading-section h1 {
+  color: white;
+  justify-content: center;
+  text-align: center;
+  font-weight: 300;
+  font-size: 4.5rem;
+}
+.developers-heading-section h1 span {
+  font-weight: 500;
+}
+
+.developers-content-section {
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+  margin-left: 8.33%;
+  margin-right: 8.33%;
+}
+.developers-content-section .dev-content-hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  align-items: flex-end;
+}
+.developers-content-section .dev-content-hero h2 {
+  font-size: 4.5rem;
+  font-weight: 300;
+}
+.developers-content-section .dev-content-hero h2 span {
+  font-weight: 500;
+}
+.developers-content-section .dev-card-section {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 350px);
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.developers-content-section .dev-card-section .dev-card {
+  height: 500px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 25px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.developers-content-section .dev-card-section .dev-card .role {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.developers-content-section .dev-card-section .dev-card .role .role-h {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  border: 1px solid #000000;
+  border-radius: 218px;
+  width: 140px;
+  font-size: 0.8rem;
+}
+.developers-content-section .dev-card-section .dev-card h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+.developers-content-section .dev-card-section .dev-card img {
+  width: 60%;
+  filter: saturate(0);
+}
+.developers-content-section .dev-card-section .dev-card img:hover {
+  filter: saturate(1);
+  transition: 0.3s ease-in-out;
+}
+.developers-content-section .dev-card-section .dev-card .dev-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+}
+.developers-content-section .dev-card-section .dev-card .dev-icons img {
+  width: 150%;
+  opacity: 50%;
+}
+.developers-content-section .dev-card-section .dev-card .dev-icons img:hover {
+  opacity: 100%;
+}/*# sourceMappingURL=developers.css.map */
