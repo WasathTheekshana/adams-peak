@@ -215,7 +215,7 @@
                 Thank you for visiting !
                 </div>
                 <div class="buttonsec-part2">
-                    <button><a class="devButt" href="./../../index.php">home</a></button>
+                    <button><a class="devButt" href="./../../index.php">Home</a></button>
                 </div>
             </div>
         </div>
