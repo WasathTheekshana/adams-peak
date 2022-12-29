@@ -52,6 +52,7 @@
 }
 .developers-content-section .dev-card-section {
   margin-top: 4rem;
+  margin-bottom: 4rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, 350px);
   gap: 1rem;
@@ -69,6 +70,15 @@
   border-radius: 25px;
   padding-top: 0;
   padding-bottom: 0;
+  position: relative;
+}
+.developers-content-section .dev-card-section .dev-card h1 {
+  position: absolute;
+  font-size: 20rem;
+  top: 0;
+  left: 0;
+  opacity: 5%;
+  z-index: -1;
 }
 .developers-content-section .dev-card-section .dev-card .role {
   display: flex;
@@ -110,4 +120,108 @@
 }
 .developers-content-section .dev-card-section .dev-card .dev-icons img:hover {
   opacity: 100%;
+}
+.developers-content-section .developers-sec-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: minmax(900px, auto);
+  gap: 8rem;
+}
+.developers-content-section .developers-sec-content h2 {
+  font-size: 4.5rem;
+  font-weight: 300;
+}
+.developers-content-section .developers-sec-content h2 span {
+  font-weight: 500;
+}
+.developers-content-section .developers-sec-content p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.developers-content-section .developers-sec-content .sec-content-img {
+  background-image: url(../../../public/nsbmpic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.developers-content-section .developers-sec-content button {
+  background: linear-gradient(93.66deg, #000000 -109.29%, rgba(46, 46, 46, 0.56) 298.88%);
+  border-radius: 10px;
+  color: white;
+  width: 30%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  outline: none;
+  font-size: 1em;
+  font-weight: 600;
+  border: none;
+}
+.developers-content-section .contact-us-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.developers-content-section .contact-us-section p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.developers-content-section .contact-us-section .contact-us-card {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  position: relative;
+  width: 60vw;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 8px 21px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  min-height: 600px;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.developers-content-section .contact-us-section .contact-us-card h1 {
+  position: absolute;
+  opacity: 10%;
+  font-size: 35rem;
+  margin-top: -50px;
+  right: 0;
+  top: 0;
+}
+.developers-content-section .contact-us-section .contact-us-card h2 {
+  font-weight: 300;
+  font-size: 5rem;
+}
+.developers-content-section .contact-us-section .contact-us-card button {
+  background: linear-gradient(93.66deg, #000000 -109.29%, rgba(46, 46, 46, 0.56) 298.88%);
+  border-radius: 10px;
+  color: white;
+  width: 20%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  outline: none;
+  font-size: 1em;
+  font-weight: 600;
+  border: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .dev-content-hero {
+    display: grid;
+    grid-template-columns: 1fr !important;
+  }
+  .developers-sec-content {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    min-height: 2000px !important;
+    gap: 1rem !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .dev-content-hero h2 {
+    font-size: 2rem !important;
+  }
 }/*# sourceMappingURL=developers.css.map */
