@@ -2,8 +2,12 @@
 @import url(../../footer/footer.css);
 @import url(../../navBar/navBar.css);
 
+.nsbmPic {
+    display: none;
+}
 
-.developers-heading-section{
+
+.developers-heading-section {
     background-image: url(../../../public/developers-back.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -15,61 +19,63 @@
     justify-content: center;
     align-items: center;
 
-    .heading-developers{
+    .heading-developers {
         width: 100%;
         min-height: 600px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    
-    h1{
-        
+
+    h1 {
+
         color: white;
         justify-content: center;
         text-align: center;
         font-weight: 300;
         font-size: 4.5rem;
-        
-        span{
+
+        span {
             font-weight: 500;
         }
-        
+
     }
 }
 
 
-.developers-content-section{
+.developers-content-section {
     margin-top: 6rem;
     margin-bottom: 5rem;
     margin-left: 8.33%;
     margin-right: 8.33%;
 
-    .dev-content-hero{
+    .dev-content-hero {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 4rem;
         align-items: flex-end;
-        h2{
+
+        h2 {
             font-size: 4.5rem;
             font-weight: 300;
-            span{
+
+            span {
                 font-weight: 500;
             }
         }
     }
 
 
-    .dev-card-section{
+    .dev-card-section {
         margin-top: 4rem;
         margin-bottom: 4rem;
         display: grid;
-        grid-template-columns: repeat(auto-fill,350px);
+        grid-template-columns: repeat(auto-fill, 350px);
         gap: 1rem;
         justify-content: center;
         align-items: center;
 
-        .dev-card{
+        .dev-card {
             height: 500px;
             padding: 1rem;
             display: flex;
@@ -82,7 +88,7 @@
             padding-bottom: 0;
             position: relative;
 
-            h1{
+            h1 {
                 position: absolute;
                 font-size: 20rem;
                 top: 0;
@@ -91,13 +97,13 @@
                 z-index: -1;
             }
 
-            .role{
+            .role {
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 gap: 5px;
 
-                .role-h{
+                .role-h {
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -109,35 +115,35 @@
                 }
             }
 
-            h3{
+            h3 {
                 font-size: 2rem;
                 font-weight: 400;
                 text-align: center;
             }
 
-            img{
+            img {
                 width: 60%;
                 filter: saturate(0);
 
             }
-            
-            img:hover{
+
+            img:hover {
                 filter: saturate(1);
                 transition: 0.3s ease-in-out;
 
             }
 
-            .dev-icons{
+            .dev-icons {
                 display: flex;
                 flex-direction: row;
                 gap: 2.5rem;
 
-                img{
+                img {
                     width: 150%;
                     opacity: 50%;
                 }
 
-                img:hover{
+                img:hover {
                     opacity: 100%;
                 }
             }
@@ -145,34 +151,34 @@
         }
     }
 
-    .developers-sec-content{
+    .developers-sec-content {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: minmax(900px,auto);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: minmax(900px, auto);
         gap: 8rem;
 
-        h2{
+        h2 {
             font-size: 4.5rem;
             font-weight: 300;
-            
-            span{
+
+            span {
                 font-weight: 500;
             }
         }
 
-        p{
+        p {
             margin-top: 2rem;
             margin-bottom: 2rem;
         }
 
-        .sec-content-img{
+        .sec-content-img {
             background-image: url(../../../public/nsbmpic.jpg);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
         }
 
-        button{
+        button {
             background: linear-gradient(93.66deg, #000000 -109.29%, rgba(46, 46, 46, 0.56) 298.88%);
             border-radius: 10px;
             color: white;
@@ -187,23 +193,25 @@
         }
     }
 
-    .contact-us-section{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
+
+    .contact-us-section {
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
         margin-top: 4rem;
         margin-bottom: 4rem;
 
-        p{
+        p {
             margin-top: 2rem;
             margin-bottom: 2rem;
         }
 
-        .contact-us-card{
+        .contact-us-card {
             margin-top: 3rem;
-            margin-bottom: 3rem;    
+            margin-bottom: 3rem;
             position: relative;
-            width: 60vw;
+            // width: 60vw;
             background: #FFFFFF;
             box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 8px 21px 4px rgba(0, 0, 0, 0.08);
             border-radius: 16px;
@@ -213,21 +221,21 @@
             flex-direction: column;
             justify-content: space-evenly;
 
-            h1{
+            h1 {
                 position: absolute;
                 opacity: 10%;
-                font-size: 35rem;
-                margin-top: -50px;
+                font-size: 48rem;
+                // margin-top: -50px;
                 right: 0;
-                top: 0;
+                top: -10;
             }
 
-            h2{
+            h2 {
                 font-weight: 300;
-                font-size: 5rem;
+                font-size: 5vw;
             }
 
-            button{
+            button {
                 background: linear-gradient(93.66deg, #000000 -109.29%, rgba(46, 46, 46, 0.56) 298.88%);
                 border-radius: 10px;
                 color: white;
@@ -240,35 +248,105 @@
                 font-weight: 600;
                 border: none;
             }
-            
+
         }
     }
 
 }
 
 @media screen and (max-width: 1200px) {
-    .dev-content-hero{
+    .dev-content-hero {
         display: grid;
         grid-template-columns: 1fr !important;
     }
 
-    .developers-sec-content{
+    .developers-sec-content {
         display: grid;
         grid-template-columns: 1fr !important;
-        min-height: 2000px !important;
+        // min-height: 2000px !important;
         gap: 1rem !important;
+    }
+
+    .nsbmPic {
+        display: unset;
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
     }
 }
 
+@media screen and (max-width: 700px) {
+    .developers-content-section {
+        .developers-sec-content {
+            button {
+                width: 40%;
+            }
+        }
+    }
+}
+
+
 @media screen and (max-width: 600px) {
-    .dev-content-hero{
-        h2{
-            font-size: 2rem !important;
+    .developers-heading-section {
+        .heading-developers {
+            h1 {
+                font-size: 3rem;
+                margin-bottom: 70px;
+            }
+        }
+    }
+
+    .dev-content-hero {
+        h2 {
+            font-size: 2.3rem !important;
         }
 
     }
-}
 
-@media screen and (max-width: 600px){
-    
+    .sec-content-para {
+        h2 {
+            font-size: 2.3rem !important;
+        }
+
+    }
+
+    .developers-content-section {
+        .developers-sec-content {
+            button {
+                font-size: 0.8rem;
+                font-weight: 600;
+                
+            }
+        }
+
+        .contact-us-section {
+            .contact-us-card {
+                padding: 2.25rem;
+
+                h1 {
+                    font-size: 30rem;
+                    bottom: 40px;
+                    font-weight: 600;
+
+                }
+
+                h2 {
+                    font-size: 7.3vw;
+                }
+
+                button {
+                    font-size: 0.8rem;
+                    font-weight: 600;
+                    width: 40%;
+                }
+            }
+
+            p {
+                margin-top: 1rem;
+                width: 55%;
+            }
+
+
+        }
+    }
 }

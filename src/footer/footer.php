@@ -41,7 +41,7 @@
                     Get some information<br>about this project
                 </div>
                 <div class="buttonsec-part2">
-                    <button><a href="#">Meet the developers</a></button>
+                    <button><a class="devButt" href="/src/pages/developers.php">Meet the developers</a></button>
                 </div>
             </div>
         </div>
@@ -51,7 +51,7 @@
             <span>Sri Padaya Sri Lanka 2020 - 2022 All Right Reserved - Sri padaya devotees made web site 🤍</span>
         </div>
         <div class="privacypolicy">
-            <span>Privacy Policy | Project by NSBM Undergraduates</span>
+            <span>Privacy Policy |<a style="text-decoration: none;" href="https://www.nsbm.ac.lk"> Project by NSBM Undergraduates</a></span>
         </div>
     </div>
     

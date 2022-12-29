@@ -1,6 +1,10 @@
 @import url(../../css/global.css);
 @import url(../../footer/footer.css);
 @import url(../../navBar/navBar.css);
+.nsbmPic {
+  display: none;
+}
+
 .developers-heading-section {
   background-image: url(../../../public/developers-back.jpg);
   background-position: center;
@@ -158,9 +162,6 @@
   border: none;
 }
 .developers-content-section .contact-us-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
@@ -172,7 +173,6 @@
   margin-top: 3rem;
   margin-bottom: 3rem;
   position: relative;
-  width: 60vw;
   background: #FFFFFF;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 8px 21px 4px rgba(0, 0, 0, 0.08);
   border-radius: 16px;
@@ -185,14 +185,13 @@
 .developers-content-section .contact-us-section .contact-us-card h1 {
   position: absolute;
   opacity: 10%;
-  font-size: 35rem;
-  margin-top: -50px;
+  font-size: 48rem;
   right: 0;
-  top: 0;
+  top: -10;
 }
 .developers-content-section .contact-us-section .contact-us-card h2 {
   font-weight: 300;
-  font-size: 5rem;
+  font-size: 5vw;
 }
 .developers-content-section .contact-us-section .contact-us-card button {
   background: linear-gradient(93.66deg, #000000 -109.29%, rgba(46, 46, 46, 0.56) 298.88%);
@@ -216,12 +215,54 @@
   .developers-sec-content {
     display: grid;
     grid-template-columns: 1fr !important;
-    min-height: 2000px !important;
     gap: 1rem !important;
+  }
+  .nsbmPic {
+    display: unset;
+    width: 100%;
+    height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media screen and (max-width: 700px) {
+  .developers-content-section .developers-sec-content button {
+    width: 40%;
   }
 }
 @media screen and (max-width: 600px) {
+  .developers-heading-section .heading-developers h1 {
+    font-size: 3rem;
+    margin-bottom: 70px;
+  }
   .dev-content-hero h2 {
-    font-size: 2rem !important;
+    font-size: 2.3rem !important;
+  }
+  .sec-content-para h2 {
+    font-size: 2.3rem !important;
+  }
+  .developers-content-section .developers-sec-content button {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .developers-content-section .contact-us-section .contact-us-card {
+    padding: 2.25rem;
+  }
+  .developers-content-section .contact-us-section .contact-us-card h1 {
+    font-size: 30rem;
+    bottom: 40px;
+    font-weight: 600;
+  }
+  .developers-content-section .contact-us-section .contact-us-card h2 {
+    font-size: 7.3vw;
+  }
+  .developers-content-section .contact-us-section .contact-us-card button {
+    font-size: 0.8rem;
+    font-weight: 600;
+    width: 40%;
+  }
+  .developers-content-section .contact-us-section p {
+    margin-top: 1rem;
+    width: 55%;
   }
 }/*# sourceMappingURL=developers.css.map */
