@@ -1,6 +1,6 @@
 <?php
 session_start();
-$db_username = 'u120382588_forum';
+$db_username = 'u120382588_sripadaya';
 $db_password = 'tamRoqum0C&';
 $conn = new PDO( 'mysql:host=localhost;dbname=forum', $db_username, $db_password );
 if(!$conn){
