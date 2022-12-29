@@ -56,7 +56,7 @@
             <div class="card swiper-slide">
 
                 <div class="card-content">
-                    <h2 class="name">View Points</h2>
+                    <h2 id="vp" class="vp name">View Points</h2>
                     <p class="description">
                       <ul>
                         <li>-Adam’s peak waterfall</li>

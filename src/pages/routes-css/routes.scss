@@ -65,7 +65,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(6,1fr);
-    margin: 6rem 0 6rem 0 ;
+    margin: 6rem 0 0 0 ;
     gap: 1rem;
     align-items: center;
     justify-content: center;
@@ -177,7 +177,7 @@
         padding-left: 1rem;
         padding-right: 1rem;
         margin-top: 4rem;
-        margin-bottom: 4rem;
+        margin-bottom: 0;
 
         .tab-header{
             display: flex;
@@ -189,13 +189,16 @@
     }
 
     .main{
-        width: 100% !important;
+        width: 500px !important;
     }
 
     .routes-card-section{
+
+        min-height: 900px;
         .routes-card{
+
             width: 550px;
-            height: inherit;
+            // height: inherit;
             padding: 3rem 4rem 3rem 4rem;
 
             img{
@@ -275,7 +278,7 @@
         padding-left: 1rem;
         padding-right: 1rem;
         margin-top: 4rem;
-        margin-bottom: 4rem;
+        margin-bottom: 0;
 
 
         .tab-header{
@@ -288,10 +291,13 @@
     }
 
     .main{
-        width: 100% !important;
+        width: 200px !important;
+        min-height: 80px !important;
     }
 
     .routes-card-section{
+        justify-content: flex-start;
+        min-height: 650px !important;
         .routes-card{
             width: 350px;
             height: inherit;
