@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Adams Peak, also known as Sri Pada, is an iconic mountain in Sri Lanka. It is a place of spiritual significance for people of various faiths and is a treasured heritage of Sri Lanka.">
+    <meta name="keywords" content="visit Sri Lanka, adam's peak, Sri Padaya, Travel Sri Lanka, Sri Padata Details, Sri Padaya Photos, sri padaya details, adam's peak history">
+    <meta http-equiv="refresh">
     <title>Sri Padaya</title>
     <link rel="stylesheet" href="/src/css/index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
