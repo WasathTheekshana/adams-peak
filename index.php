@@ -17,19 +17,6 @@
 
 <body>
 
-    <div class="preloader-container">
-        <img id="preloader-img" src="../../../public/preloader-img.png" alt="">
-        <h2> Adam's Peak </h2>
-    </div>
-
-    <script>
-      //after window is loaded completely 
-      window.onload = function(){
-          //hide the preloader
-          document.querySelector(".preloader-container").style.display = "none";
-      }
-  </script>
-
   <marquee width="1%" direction="left" loop="infinite">
     *New Sri Pada Season - 7th december 2022 to 5th May 2023
     </marquee>
@@ -52,9 +39,15 @@
           still happening at the sacred footprint on top of the mountain. Sri Pada is the only mountain in the
           world that receives benefactions and veneration of devotees belonging to different faiths.
         </p>
-        <button class="hero-button" onClick="window.location.href='./src/pages/explore.php';">
-          Explore More
-        </button>
+        <a href="#" style="text-decoration: none;">
+          <div class="hero-button">
+            <a href="./src/pages/explore.html">
+              <div class="hero-button-text">
+                Explore More
+              </div>
+
+            </a>
+        </a>
       </div>
     </div>
   </div>
@@ -74,7 +67,7 @@
         This is 2,243 m tall. It is well known for the Sri Pada, i.e., "sacred footprint", a 1.8 m rock formation near
         the summit, which in Buddhist tradition is held to be footprint of Buddha. Portuguese Christians believed St
         Thomas and the eunuch of Candace, queen of Ethiopia.</p>
-      <button onClick="window.location.href='./src/pages/history.php';">Read More</button>
+      <button>Read More</button>
     </div>
 
     <div class="intro-top-right">
@@ -90,7 +83,7 @@
       <p>There are several routes that can be taken to reach Sri Pada, also known as Adam's Peak, in Sri Lanka. The most popular route is the Hatton-Nallathanni route, which starts in the town of Hatton and passes through the villages of Nallathanni and Kuruwita before reaching the mountain. This route is well-marked and relatively easy to follow, and it takes about 5-7 hours to reach the summit depending on the pace of the hike.
 
       </p>
-      <button onClick="window.location.href='./src/pages/routes.php';">View Routes</button>
+      <button>View Routes</button>
     </div>
   </div>
 
@@ -115,7 +108,7 @@
         <div class="card-content">
             <h3>See the real beauty</h3>
             <p>View all the beautiful photos of “Sri Padaya”</p>
-            <button onClick="window.location.href='./src/pages/gallery.php';">View Gallery</button>
+            <button>View Gallery</button>
         </div>
     </div>
 </div>
