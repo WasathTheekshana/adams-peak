@@ -1,4 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap");
+@-webkit-keyframes nav-animation {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes nav-animation {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
 .navbarSection {
   margin: 0;
   padding: 0;
@@ -7,6 +25,8 @@
 
 .navbar {
   padding-top: 2em;
+  -webkit-animation: nav-animation 300ms ease-in-out;
+          animation: nav-animation 300ms ease-in-out;
 }
 .navbar .logoimage {
   height: 30px;
