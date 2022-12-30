@@ -3,7 +3,7 @@
 @import "/src/components/forum/forum.css";
 
 
-.preloader-container {
+/* .preloader-container {
   background-color: white;
   height: 100vh;
   width: 100%;
@@ -16,7 +16,7 @@
   font-weight: 200;
   font-size: 4rem;
   margin-top: 2rem;
-}
+} */
 
 marquee {
   width: 100vw;

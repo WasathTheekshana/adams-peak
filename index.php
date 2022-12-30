@@ -17,7 +17,7 @@
 
 <body>
 
-    <div class="preloader-container">
+    <!-- <div class="preloader-container">
         <img id="preloader-img" src="../../../public/preloader-img.png" alt="">
         <h2> Adam's Peak </h2>
     </div>
@@ -28,7 +28,7 @@
           //hide the preloader
           document.querySelector(".preloader-container").style.display = "none";
       }
-  </script>
+  </script> -->
 
   <marquee width="1%" direction="left" loop="infinite">
     *New Sri Pada Season - 7th december 2022 to 5th May 2023
