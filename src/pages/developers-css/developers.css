@@ -231,6 +231,9 @@
   }
 }
 @media screen and (max-width: 600px) {
+  .developers-heading-section {
+    min-height: 400px !important;
+  }
   .developers-heading-section .heading-developers h1 {
     font-size: 3rem;
     margin-bottom: 70px;

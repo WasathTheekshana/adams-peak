@@ -100,9 +100,9 @@
                 <img src="../../public/dakum-dev.png" alt="wasath">
                 <h3>Dakum Perera</h3>
                 <div class="dev-icons">
-                    <a href=""> <img src="../../public/linkedin.svg" alt=""> </a>
-                    <a href=""> <img src="../../public/github.svg" alt=""> </a>
-                    <a href=""> <img src="../../public/insta.svg" alt=""> </a>
+                    <a href="" target="_blank"> <img src="../../public/linkedin.svg" alt=""> </a>
+                    <a href="https://github.com/dakumperera" target="_blank"> <img src="../../public/github.svg" alt=""> </a>
+                    <a href="https://www.instagram.com/_im_dakum_" target="_blank"> <img src="../../public/insta.svg" alt=""> </a>
                 </div>
             </div>
 
@@ -165,7 +165,7 @@
             <div class="contact-us-card">
                 <h1>?</h1>
                 <h2>Have a question ? <br> Our team is <br> with you </h2>
-                <p>If you have any questions about the information provided on our website, <br> please don't hesitate to reach out to us. <br> We are here to help and we welcome any feedback or suggestions you may have. <br> Thank you for visiting adamspeak,net and we hope you have a great trip!</p>
+                <p>If you have any questions about the information provided on our website,  please don't hesitate to reach out to us. <br> We are here to help and we welcome any feedback or suggestions you may have. <br> Thank you for visiting adamspeak,net and we hope you have a great trip!</p>
                 <button onclick="location.href='mailto:contact@sripadaya.net';";>Contact Us</button>
             </div>
             

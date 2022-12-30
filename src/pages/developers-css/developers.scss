@@ -288,6 +288,7 @@
 
 @media screen and (max-width: 600px) {
     .developers-heading-section {
+        min-height: 400px !important;
         .heading-developers {
             h1 {
                 font-size: 3rem;
