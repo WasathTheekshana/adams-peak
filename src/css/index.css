@@ -3,7 +3,6 @@
 @import "/src/components/forum/forum.css";
 
 
-
 /* .preloader-container {
   background-color: white;
   height: 100vh;
@@ -84,6 +83,12 @@ marquee {
 }
 
 .hero-button {
+  outline: none;
+  border: none;
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
   background: linear-gradient(93.97deg, #D9D9D9 -173.88%, rgba(173, 173, 173, 0) 214.31%);
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
