@@ -110,7 +110,7 @@
                 <h1>#</h1>
                 <div class="role">
                     <div class="role-h"> Researcher</div>
-                    <div class="role-h"> Tesing / QA </div>
+                    <div class="role-h"> Testing / QA </div>
                 </div>
                 <img src="../../public/yashas-dev.png" alt="wasath">
                 <h3>Yashas Hewage</h3>
@@ -125,7 +125,7 @@
                 <h1>#</h1>
                 <div class="role">
                     <div class="role-h"> Researcher</div>
-                    <div class="role-h"> Tesing / QA </div>
+                    <div class="role-h"> Testing / QA </div>
                 </div>
                 <img src="../../public/hashini-dev.png" alt="wasath">
                 <h3>Hashini Karunathilake</h3>
