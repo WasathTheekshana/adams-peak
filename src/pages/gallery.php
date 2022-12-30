@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="gallery.css">
 </head>
 <body>
-<?php include './../navBar/navBar.php' ?>
+<div class="gallery-nav">
+  
+  <?php include './../navBar/navBar.php' ?>
+</div>
   <div class="gallery">
 <!-- Header -->
 <div class="header">
