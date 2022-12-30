@@ -8,14 +8,20 @@
     background-color: black;
   }
   
+.gallery-nav{
+  margin-left: 8.33%;
+  margin-right: 8.33%;
+}
 
   .gallery{
+    position: relative;
     margin-left: 8.33%;
     /* margin-right: 8.33%; */
     margin-top: 100px;
     margin-bottom: 100px;
   }
   .header {
+    margin-left: -50px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -54,6 +60,10 @@
       flex: 50%;
       max-width: 50%;
     }
+
+    .header{
+      margin-left: 0 !important;
+    }
   }
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -72,6 +82,7 @@
     
     }
     .header{
+      margin-left: 0 !important;
       font-size: 8vw;
     }
 

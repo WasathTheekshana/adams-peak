@@ -64,17 +64,18 @@
   padding-bottom: 3rem;
 }
 .explore-content-section .explore-top-right {
-  background-image: url(../../../public/explore-1.png);
+  background-image: url(../../../public/explore-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .explore-content-section .explore-bottom-left {
-  background-image: url(../../../public/explore-2.png);
+  background-image: url(../../../public/explore-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
+
 @media (max-width: 1000px) {
   .explore-content-section {
     grid-template-columns: 1fr;

@@ -1,0 +1,286 @@
+@import url(./../../css/global.css);
+@import url(./../../navBar/navBar.css);
+@import url(./../../footer/footer.css);
+.routes-heading-section {
+  background-image: url(../../../public/routes-background-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 900px;
+  padding-left: 8.33%;
+  padding-right: 8.33%;
+  justify-content: center;
+  align-items: center;
+}
+.routes-heading-section .heading-routes {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.routes-heading-section h1 {
+  color: white;
+  justify-content: center;
+  text-align: center;
+  font-weight: 300;
+  font-size: 4.5rem;
+}
+.routes-heading-section h1 span {
+  font-weight: 500;
+}
+
+.routes-tab-header .tab-header:hover {
+  background-color: #E2E2E2;
+  transition: 0.5s ease-in-out;
+}
+.routes-tab-header .active {
+  color: white;
+  background: linear-gradient(93.66deg, #000000 -109.29%, rgba(46, 46, 46, 0.56) 298.88%) !important;
+}
+.routes-tab-header #hattonButton {
+  background: linear-gradient(93.66deg, #000000 -109.29%, rgba(46, 46, 46, 0.56) 298.88%);
+  color: #FFFFFF;
+}
+
+.routes-tab-header {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin: 6rem 0 0 0;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.routes-tab-header .tab-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4rem;
+  padding: 1rem;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 8px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+
+.routes-card-section {
+  min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.routes-card-section .main {
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.routes-card-section .routes-card {
+  width: 100%;
+  height: 800px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 8px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  padding: 3rem 4rem 3rem 4rem;
+}
+.routes-card-section .routes-card .routes-card-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.routes-card-section .routes-card .routes-card-heading h2 {
+  opacity: 0.2;
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+.routes-card-section .routes-card .routes-card-heading h4 {
+  font-size: 600;
+  font-size: 2rem;
+}
+.routes-card-section .routes-card .routes-card-elements {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-around;
+}
+.routes-card-section .routes-card .routes-card-elements div {
+  padding: 5px 25px 5px 25px;
+  background: linear-gradient(92.5deg, #EAEAEA -5.48%, #FFF4F4 147.65%);
+  border: 0.5px solid rgba(0, 0, 0, 0.3);
+  border-radius: 218px;
+  font-weight: 400;
+  font-size: smaller;
+}
+.routes-card-section .routes-card .routes-card-elements div span {
+  font-weight: 500;
+}
+.routes-card-section .routes-card .routes-card-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.routes-card-section .routes-card .routes-card-content {
+  font-weight: 300;
+}
+
+@media screen and (max-width: 1000px) {
+  .routes-tab-header {
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 0.9rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 0;
+  }
+  .routes-tab-header .tab-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .main {
+    width: 500px !important;
+  }
+  .routes-card-section {
+    min-height: 900px;
+  }
+  .routes-card-section .routes-card {
+    width: 550px;
+    padding: 3rem 4rem 3rem 4rem;
+  }
+  .routes-card-section .routes-card img {
+    width: 90%;
+  }
+  .routes-card-section .routes-card .routes-card-content {
+    font-size: 0.8rem;
+  }
+  .routes-card-section .routes-card .routes-card-heading {
+    margin-bottom: 1.5rem;
+  }
+  .routes-card-section .routes-card .routes-card-heading h2 {
+    font-size: 2rem;
+  }
+  .routes-card-section .routes-card .routes-card-heading h4 {
+    font-size: 1.3rem;
+  }
+  .routes-card-section .routes-card .routes-card-elements {
+    gap: 0.3rem;
+  }
+  .routes-card-section .routes-card .routes-card-elements div {
+    padding: 2px 10px 2px 10px;
+    border-radius: 218px;
+    font-weight: 400;
+    font-size: 0.65rem;
+  }
+  .routes-card-section .routes-card .routes-card-elements div span {
+    font-weight: 500;
+  }
+  .routes-card-section .routes-card .routes-card-elements img {
+    width: 15%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .routes-heading-section {
+    min-height: 600px !important;
+  }
+  .routes-heading-section .heading-routes {
+    min-height: 500px !important;
+  }
+  .routes-heading-section h1 {
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-weight: 300;
+    font-size: 3.5rem;
+  }
+  .routes-heading-section h1 span {
+    font-weight: 500;
+  }
+  .routes-tab-header {
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 0;
+  }
+  .routes-tab-header .tab-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .main {
+    width: 200px !important;
+    min-height: 80px !important;
+  }
+  .routes-card-section {
+    justify-content: flex-start;
+    min-height: 650px !important;
+  }
+  .routes-card-section .routes-card {
+    width: 350px;
+    height: inherit;
+    padding: 2rem 1rem 2rem 1rem;
+  }
+  .routes-card-section .routes-card img {
+    width: 80%;
+  }
+  .routes-card-section .routes-card .routes-card-content {
+    font-size: 0.8rem;
+  }
+  .routes-card-section .routes-card .routes-card-heading {
+    margin-bottom: 1.5rem;
+  }
+  .routes-card-section .routes-card .routes-card-heading h2 {
+    font-size: 2rem;
+  }
+  .routes-card-section .routes-card .routes-card-heading h4 {
+    font-size: 1.3rem;
+  }
+  .routes-card-section .routes-card .routes-card-elements {
+    gap: 0.3rem;
+  }
+  .routes-card-section .routes-card .routes-card-elements div {
+    padding: 2px 10px 2px 10px;
+    border-radius: 218px;
+    font-weight: 400;
+    font-size: 0.5rem;
+  }
+  .routes-card-section .routes-card .routes-card-elements div span {
+    font-weight: 500;
+  }
+  .routes-card-section .routes-card .routes-card-elements img {
+    width: 15%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .routes-tab-header {
+    grid-template-columns: repeat(1, 1fr);
+    font-size: 0.9rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  .routes-tab-header .tab-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}/*# sourceMappingURL=routes.css.map */

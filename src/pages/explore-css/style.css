@@ -2,7 +2,7 @@
 
 
 .slide-container{
-  max-width: 1120px;
+  max-width: 1120px;                      
   width: 100%;
   padding: 40px 0;
   margin-bottom: 5rem;
@@ -10,6 +10,9 @@
 }
 .slide-content{
   margin: 0 40px;
+  padding-bottom: 2rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
   overflow: hidden;
   border-radius: 25px;
 }
@@ -82,6 +85,6 @@
   .swiper-navBtn{
     display: none !important;
   }
-
+  
   
 }

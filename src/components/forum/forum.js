@@ -26,7 +26,7 @@ success: function(data) {
     }
 },
 error: function(jqXHR, textStatus, errorThrown){
-    alert('Error: ' + textStatus + ' - ' + errorThrown);
+    // alert('Error: ' + textStatus + ' - ' + errorThrown);
 }
 });
 }
@@ -74,7 +74,7 @@ $(document).ready(function() {
 			});
 		}
 		else{
-			alert('Please fill all the field !');
+			// alert('Please fill all the field !');
 		}
 	});
 });
@@ -114,7 +114,7 @@ $(document).ready(function() {
 			});
 		}
 		else{
-			alert('Please fill all the field !');
+			// alert('Please fill all the field !');
 		}
 	});
 });
