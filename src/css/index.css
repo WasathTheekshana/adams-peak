@@ -2,6 +2,23 @@
 @import "../navBar/navBar.css";
 @import "/src/components/forum/forum.css";
 
+
+
+/* .preloader-container {
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.preloader-container h2 {
+  font-weight: 200;
+  font-size: 4rem;
+  margin-top: 2rem;
+} */
+
 marquee {
   width: 100vw;
   height: 44px;
