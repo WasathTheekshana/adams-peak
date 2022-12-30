@@ -20,7 +20,7 @@ marquee {
 }
 
 .hero-section {
-  background-image: url(/public/Hero-Image.png);
+  background-image: url(/public/Hero-Image.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -237,7 +237,7 @@ marquee {
 .quote-section-container {
   display: flex;
   flex-direction: column;
-  background-image: url(../../public/quote-pic.png);
+  background-image: url(../../public/quote-pic.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
