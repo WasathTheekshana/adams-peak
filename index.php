@@ -123,6 +123,9 @@
   <!-------------------- Gallery Section End -------------------->
 
   <!-------------------- Forum Section -------------------->
+  <?php
+date_default_timezone_set("Asia/Colombo");
+?>
   <?php include './src/components/forum/forum.php'?>
   <!-------------------- Forum Section End -------------------->
 
