@@ -201,6 +201,7 @@ input[type="button"]:hover {
 #MyTable {
     width: 100%;
     font-size: 1em;
+    margin-bottom: 120px;
 }
 
 .avatar {
@@ -220,7 +221,7 @@ input[type="button"]:hover {
     position: absolute;
     right: 0px;
     /* top: 5px; Set date before name */
-    top: 65px;
+    top: 15px;
     /*Set date after name */
     font-weight: 400;
     color: rgba(0, 0, 0, 0.42);
@@ -256,6 +257,7 @@ input[type="button"]:hover {
     height: 4em;
 }
 
+
 @media (max-width:780px) {
 
     .closeButton,
@@ -288,6 +290,7 @@ input[type="button"]:hover {
         height: 42.20px;
         width: auto;
         margin-top: 27px;
+        margin-bottom: 27px;
         border-radius: 10px;
     }
 
@@ -355,5 +358,34 @@ input[type="button"]:hover {
 
     input[type="text"] {
         margin-top: 10px;
+    }
+
+    #MyTable{
+        margin-bottom: 2rem;
+    }
+
+    .commentTable {
+        margin-left: 8.33%;
+        margin-right: 8.33%;
+    }
+
+    .repComment {
+        padding-left: 55px;
+    }
+
+    .commentText{
+        padding-top: 0;
+    }
+
+    .date{
+        top: 30px;
+    }
+    .commentGap{
+        height: 0;
+    }
+
+    .commenter{
+        padding-top: 0;
+        padding-bottom: 0;
     }
 }
