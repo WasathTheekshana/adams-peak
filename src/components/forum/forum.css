@@ -249,7 +249,7 @@ input[type="button"]:hover {
 }
 
 .repComment>.commentText {
-    padding-left: 40px;
+    padding-left: 30px;
     text-align: justify;
 }
 
