@@ -29,8 +29,8 @@
         <div id="rathnapuraButton" class="tab-header" onclick="buttonClick(2)"> <img src="../.././public/yellow.svg" alt=""> Rathnapura, Palabaddala </div>
         <div id="kuruvitaButton" class="tab-header" onclick="buttonClick(3)"> <img src="../.././public/green.svg" alt=""> Kuruvita, Eraththa </div>
         <div id="deraniyagalaButton" class="tab-header" onclick="buttonClick(4)"> <img src="../.././public/red.svg" alt=""> Deraniyagala, Udamaliboda </div>
-        <div id="rajamaleButton" class="tab-header" onclick="buttonClick(5)"> <img src="../.././public/green.svg" alt=""> Rajamale </div>
-        <div id="hapugastennaButton" class="tab-header" onclick="buttonClick(6)"> <img src="../.././public/red.svg" alt=""> Hapugastenna </div>
+        <div id="rajamaleButton" class="tab-header" onclick="buttonClick(5)"> <img src="../.././public/green.svg" alt=""> Rajamale, Sandagalathenna </div>
+        <div id="hapugastennaButton" class="tab-header" onclick="buttonClick(6)"> <img src="../.././public/red.svg" alt=""> Hapugastenna, Dehena Kanda </div>
     </div>
     
     <div class="routes-card-section">
@@ -51,7 +51,7 @@
                 <div> Distance: <span id="distance">5Km</span> </div>
             </div>
 
-            <div class="routes-card-image"><img id="routeImg" src="../.././public/Rectangle1.jpg" alt=""></div>
+            <div class="routes-card-image"><img id="routeImg" style="width: 442px;" src="../.././public/routes-1.jpg" alt="hatton nallathanni trail sri padaya"></div>
 
             <div class="routes-card-content">
                 <p id="routeDes">Hatton - Nallathanni route is the most famous and the shortest route among the 6 main routes. This is the route which starts from the highest elevation. Roads of this route is well paved as this is the most popular route among both local and foreign devotees. This route has stairs all the way. Drinking water and restpoints are also available there in this route. Also comparatively this route has more facilities than other routes. On this route you’ll be passing “Japanese Temple”, “Makara Thorana”, “Gangul Thenna”, “Seetha Gangula River” and the “Seetha Gangula Rest point”.</p>
