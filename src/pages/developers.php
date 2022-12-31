@@ -102,7 +102,7 @@
                 <img src="../../public/dakum-dev.png" alt="wasath">
                 <h3>Dakum Perera</h3>
                 <div class="dev-icons">
-                    <a href="" target="_blank"> <img src="../../public/linkedin.svg" alt=""> </a>
+                    <a href="https://www.linkedin.com/in/dakum-perera-073140260" target="_blank"> <img src="../../public/linkedin.svg" alt=""> </a>
                     <a href="https://github.com/dakumperera" target="_blank"> <img src="../../public/github.svg" alt=""> </a>
                     <a href="https://www.instagram.com/_im_dakum_" target="_blank"> <img src="../../public/insta.svg" alt=""> </a>
                 </div>
