@@ -25,7 +25,7 @@
 <div class="row">
 
   <div class="column">
-    <img src="./galleryImages/image1.jpg" style="width:100%">
+    <img src="./galleryImages/image1.jpg" style="width:100%" alt="sky view sri padaya">
     <img src="./galleryImages/image4.jpg" style="width:100%">
     <img src="./galleryImages/image7.jpg" style="width:100%">
     <img src="./galleryImages/image10.jpg" style="width:100%">
