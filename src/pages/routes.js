@@ -70,7 +70,7 @@ function buttonClick(no) {
         document.getElementById("distance").innerHTML = "5Km";
         document.getElementById("routeImg").src = "../.././public/routes-5.jpg";
         document.getElementById("routeImg").alt = "Rajamale Sandagalathenna trail sri padaya";
-        document.getElementById("routeDes").innerHTML = "";
+        document.getElementById("routeDes").innerHTML = "This route is going through the Sandagalathenna forest reserve. This is the best route for a nature lover to choose for this Sri Pada hike. There are no steps in this route. The leeches will be your best travel partners through this journey. Also there are no specific restpoints on this route.";
     }
     else if (no == 6) {
         document.getElementById("hapugastennaButton").style.background = 'linear-gradient(93.66deg, #000000 -109.29%, rgba(46, 46, 46, 0.56) 298.88%)';

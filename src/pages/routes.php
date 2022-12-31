@@ -30,7 +30,7 @@
         <div id="kuruvitaButton" class="tab-header" onclick="buttonClick(3)"> <img src="../.././public/green.svg" alt="sri padaya adam's peak Kuruvita Eraththa button"> Kuruvita, Eraththa </div>
         <div id="deraniyagalaButton" class="tab-header" onclick="buttonClick(4)"> <img src="../.././public/red.svg" alt="sri padaya adam's peak Deraniyagala Udamaliboda button"> Deraniyagala, Udamaliboda </div>
         <div id="rajamaleButton" class="tab-header" onclick="buttonClick(5)"> <img src="../.././public/green.svg" alt="sri padaya adam's peak Rajamale Sandagalathenna button"> Rajamale, Sandagalathenna </div>
-        <div id="hapugastennaButton" class="tab-header" onclick="buttonClick(6)"> <img src="../.././public/red.svg" alt="sri padaya adam's peak Hapugastenna Dehena Kanda button"> Hapugastenna, Dehena Kanda </div>
+        <div id="hapugastennaButton" class="tab-header" onclick="buttonClick(6)"> <img src="../.././public/red.svg" alt="sri padaya adam's peak Hapugastenna DehenaKanda button"> Hapugastenna, Dehenakanda </div>
     </div>
     
     <div class="routes-card-section">
