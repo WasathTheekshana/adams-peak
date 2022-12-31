@@ -119,7 +119,7 @@
                 <div class="dev-icons">
                     <a href="https://www.linkedin.com/in/yashas-hewage-189897224" target="_blank"> <img src="../../public/linkedin.svg" alt=""> </a>
                     <a href="https://github.com/yashashewa" target="_blank"> <img src="../../public/github.svg" alt=""> </a>
-                    <a href="https://github.com/yashashewa" target="_blank"> <img src="../../public/insta.svg" alt=""> </a>
+                    <a href="https://www.instagram.com/y.ashas___/" target="_blank"> <img src="../../public/insta.svg" alt=""> </a>
                 </div>
             </div>
 
