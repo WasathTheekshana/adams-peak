@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="./explore-css/explore.css">
   <link rel="stylesheet" href="./explore-css/style.css">
   <link rel="stylesheet" href="./explore-css/swiper-bundle.min.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="./../../public/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./../../public/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./../../public/favicon-16x16.png">
    
 </head>
 <body>
