@@ -42,9 +42,9 @@
                 <img src="../../public/wasath-dev.png" alt="wasath">
                 <h3>Wasath Theekshana</h3>
                 <div class="dev-icons">
-                    <a href="https://www.linkedin.com/in/wasatht/" target="_blank" > <img src="../../public/linkedin.svg" alt=""> </a>
-                    <a href="https://github.com/WasathTheekshana" target="_blank"> <img src="../../public/github.svg" alt=""> </a>
-                    <a href="https://www.instagram.com/wasath.theekshana/" target="_blank"> <img src="../../public/insta.svg" alt=""> </a>
+                    <a href="https://www.linkedin.com/in/wasatht/" target="_blank" > <img src="../../public/linkedin.svg" alt="sri padaya linkedin"> </a>
+                    <a href="https://github.com/WasathTheekshana" target="_blank"> <img src="../../public/github.svg" alt="sri padaya linkedin github"> </a>
+                    <a href="https://www.instagram.com/wasath.theekshana/" target="_blank"> <img src="../../public/insta.svg" alt="sri padaya instagram"> </a>
                 </div>
             </div>
 
@@ -54,12 +54,12 @@
                     <div class="role-h"> DevOps</div>
                     <div class="role-h"> Developer </div>
                 </div>
-                <img src="../../public/yasith-dev.png" alt="wasath">
+                <img src="../../public/yasith-dev.png" alt="yasithranusha">
                 <h3>Yasith Silva</h3>
                 <div class="dev-icons">
-                    <a href="https://www.linkedin.com/in/yasithranusha" target="_blank"> <img src="../../public/linkedin.svg" alt=""> </a>
-                    <a href="https://github.com/yasithranusha" target="_blank"> <img src="../../public/github.svg" alt=""> </a>
-                    <a href="https://instagram.com/yasithranusha" target="_blank"> <img src="../../public/insta.svg" alt=""> </a>
+                    <a href="https://www.linkedin.com/in/yasithranusha" target="_blank"> <img src="../../public/linkedin.svg" alt="adam's peak linkedin"> </a>
+                    <a href="https://github.com/yasithranusha" target="_blank"> <img src="../../public/github.svg" alt="adam's peak linkedin github"> </a>
+                    <a href="https://instagram.com/yasithranusha" target="_blank"> <img src="../../public/insta.svg" alt="adam's peak instagram"> </a>
                 </div>
             </div>
 
@@ -69,12 +69,12 @@
                     <div class="role-h"> UI/UX Designer</div>
                     <div class="role-h"> Developer </div>
                 </div>
-                <img src="../../public/trishan-dev.png" alt="wasath">
+                <img src="../../public/trishan-dev.png" alt="trishan">
                 <h3>Trishan Phillipsz</h3>
                 <div class="dev-icons">
-                    <a href="https://www.linkedin.com/in/stgp/" target="_blank"> <img src="../../public/linkedin.svg" alt=""> </a>
-                    <a href="https://github.com/Shenon69" target="_blank"> <img src="../../public/github.svg" alt=""> </a>
-                    <a href="https://www.instagram.com/tikkioninsta/" target="_blank"> <img src="../../public/insta.svg" alt=""> </a>
+                    <a href="https://www.linkedin.com/in/stgp/" target="_blank"> <img src="../../public/linkedin.svg" alt="sri padaya linkedin"> </a>
+                    <a href="https://github.com/Shenon69" target="_blank"> <img src="../../public/github.svg" alt="sri padaya linkedin github"> </a>
+                    <a href="https://www.instagram.com/tikkioninsta/" target="_blank"> <img src="../../public/insta.svg" alt="sri padaya instagram"> </a>
                 </div>
             </div>
 
@@ -84,12 +84,12 @@
                     <div class="role-h"> UI/UX Designer</div>
                     <div class="role-h"> Developer </div>
                 </div>
-                <img src="../../public/lithara-dev.png" alt="wasath">
+                <img src="../../public/lithara-dev.png" alt="lithara">
                 <h3>Lithara Perera</h3>
                 <div class="dev-icons">
-                    <a href="https://www.linkedin.com/in/lithara-perera" target="_blank"> <img src="../../public/linkedin.svg" alt=""> </a>
-                    <a href="https://github.com/Lithara" target="_blank"> <img src="../../public/github.svg" alt=""> </a>
-                    <a href="https://instagram.com/lithara.perera" target="_blank"> <img src="../../public/insta.svg" alt=""> </a>
+                    <a href="https://www.linkedin.com/in/lithara-perera" target="_blank"> <img src="../../public/linkedin.svg" alt="adam's peak linkedin"> </a>
+                    <a href="https://github.com/Lithara" target="_blank"> <img src="../../public/github.svg" alt="adam's peak github"> </a>
+                    <a href="https://instagram.com/lithara.perera" target="_blank"> <img src="../../public/insta.svg" alt="adam's peak instagram"> </a>
                 </div>
             </div>
 
@@ -99,12 +99,12 @@
                     <div class="role-h"> Researcher</div>
                     <div class="role-h"> Developer </div>
                 </div>
-                <img src="../../public/dakum-dev.png" alt="wasath">
+                <img src="../../public/dakum-dev.png" alt="dakum">
                 <h3>Dakum Perera</h3>
                 <div class="dev-icons">
-                    <a href="https://www.linkedin.com/in/dakum-perera-073140260" target="_blank"> <img src="../../public/linkedin.svg" alt=""> </a>
-                    <a href="https://github.com/dakumperera" target="_blank"> <img src="../../public/github.svg" alt=""> </a>
-                    <a href="https://www.instagram.com/_im_dakum_" target="_blank"> <img src="../../public/insta.svg" alt=""> </a>
+                    <a href="https://www.linkedin.com/in/dakum-perera-073140260" target="_blank"> <img src="../../public/linkedin.svg" alt="sri padaya linkedin"> </a>
+                    <a href="https://github.com/dakumperera" target="_blank"> <img src="../../public/github.svg" alt="sri padaya github"> </a>
+                    <a href="https://www.instagram.com/_im_dakum_" target="_blank"> <img src="../../public/insta.svg" alt="sri padaya instagram"> </a>
                 </div>
             </div>
 
@@ -114,12 +114,12 @@
                     <div class="role-h"> Researcher</div>
                     <div class="role-h"> Testing / QA </div>
                 </div>
-                <img src="../../public/yashas-dev.png" alt="wasath">
+                <img src="../../public/yashas-dev.png" alt="yashas">
                 <h3>Yashas Hewage</h3>
                 <div class="dev-icons">
-                    <a href="https://www.linkedin.com/in/yashas-hewage-189897224" target="_blank"> <img src="../../public/linkedin.svg" alt=""> </a>
-                    <a href="https://github.com/yashashewa" target="_blank"> <img src="../../public/github.svg" alt=""> </a>
-                    <a href="https://www.instagram.com/y.ashas___/" target="_blank"> <img src="../../public/insta.svg" alt=""> </a>
+                    <a href="https://www.linkedin.com/in/yashas-hewage-189897224" target="_blank"> <img src="../../public/linkedin.svg" alt="adam's peak linkedin"> </a>
+                    <a href="https://github.com/yashashewa" target="_blank"> <img src="../../public/github.svg" alt="adam's peak github"> </a>
+                    <a href="https://www.instagram.com/y.ashas___/" target="_blank"> <img src="../../public/insta.svg" alt="adam's peak instagram"> </a>
                 </div>
             </div>
 
@@ -129,12 +129,12 @@
                     <div class="role-h"> Researcher</div>
                     <div class="role-h"> Testing / QA </div>
                 </div>
-                <img src="../../public/hashini-dev.png" alt="wasath">
+                <img src="../../public/hashini-dev.png" alt="hashini">
                 <h3>Hashini Karunathilake</h3>
                 <div class="dev-icons">
-                    <a href="https://www.linkedin.com/in/hashini-karunathilaka" target="_blank"> <img src="../../public/linkedin.svg" alt=""> </a>
-                    <a href="https://github.com/hashinikarunathilaka" target="_blank"> <img src="../../public/github.svg" alt=""> </a>
-                    <a href="https://instagram.com/hashini_xix" target="_blank"> <img src="../../public/insta.svg" alt=""> </a>
+                    <a href="https://www.linkedin.com/in/hashini-karunathilaka" target="_blank"> <img src="../../public/linkedin.svg" alt="sri padaya linkedin"> </a>
+                    <a href="https://github.com/hashinikarunathilaka" target="_blank"> <img src="../../public/github.svg" alt="sri padaya linkedin github"> </a>
+                    <a href="https://instagram.com/hashini_xix" target="_blank"> <img src="../../public/insta.svg" alt="sri padaya instagram"> </a>
                 </div>
             </div>
 
@@ -179,7 +179,7 @@
         <div class="container-div">
             <div class="logosec">
                 <div class="logosec-part1">
-                    <img src="../../public/WebsiteLogo.svg" class="mainlogo">
+                <img src="../../public/WebsiteLogo.svg" alt="sri padaya website logo" class="mainlogo">
                 </div>
                 <div class="logosec-part2">
                     Sri Padaya, The Sacred Footprint
@@ -197,16 +197,16 @@
             </div>
             <div class="contactsec">
                 <ul class="contactinfo">
-                    <li>
-                        <span><img src="../../public/LocationLogo.svg" class="Locationlogo"></span>
+                <li>
+                        <span><img src="../../public/LocationLogo.svg" alt="sri padaya location logo" class="Locationlogo"></span>
                         <span><a href="https://goo.gl/maps/cXiRhrKMhjoNBhYR8">Sri Pada, Sri Lanka</a></span>
                     </li>
                     <li>
-                        <span><img src="../../public/ContactLogo.svg" class="Contactlogo"></span>
+                        <span><img src="../../public/ContactLogo.svg" alt="sri padaya contact logo" class="Contactlogo"></span>
                         <span><a href="tel:1912">Tourism Hotline : 1912</a></span>
                     </li>
                     <li>
-                        <span><img src="../../public/PoliceLogo.svg" class="Policelogo"></span>
+                        <span><img src="../../public/PoliceLogo.svg" alt="sri padaya police logo" class="Policelogo"></span>
                         <span>Sri Lanka Tourism Police<br>
                             :<a href="tel:+94112421052"> +94 11 242 1052</a></span>
                     </li>

@@ -3,7 +3,7 @@
         <div class="container-div">
             <div class="logosec">
                 <div class="logosec-part1">
-                    <img src="../../public/WebsiteLogo.svg" class="mainlogo">
+                    <img src="../../public/WebsiteLogo.svg" alt="sri padaya website logo" class="mainlogo">
                 </div>
                 <div class="logosec-part2">
                     Sri Padaya, The Sacred Footprint
@@ -22,15 +22,15 @@
             <div class="contactsec">
                 <ul class="contactinfo">
                     <li>
-                        <span><img src="../../public/LocationLogo.svg" class="Locationlogo"></span>
+                        <span><img src="../../public/LocationLogo.svg" alt="sri padaya location logo" class="Locationlogo"></span>
                         <span><a href="https://goo.gl/maps/cXiRhrKMhjoNBhYR8">Sri Pada, Sri Lanka</a></span>
                     </li>
                     <li>
-                        <span><img src="../../public/ContactLogo.svg" class="Contactlogo"></span>
+                        <span><img src="../../public/ContactLogo.svg" alt="sri padaya contact logo" class="Contactlogo"></span>
                         <span><a href="tel:1912">Tourism Hotline : 1912</a></span>
                     </li>
                     <li>
-                        <span><img src="../../public/PoliceLogo.svg" class="Policelogo"></span>
+                        <span><img src="../../public/PoliceLogo.svg" alt="sri padaya police logo" class="Policelogo"></span>
                         <span>Sri Lanka Tourism Police<br>
                             :<a href="tel:+94112421052"> +94 11 242 1052</a></span>
                     </li>

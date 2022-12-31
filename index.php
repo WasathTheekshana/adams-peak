@@ -48,7 +48,7 @@
 
       <div class="hero-content">
         <p class="english-title">Adam’s Peak</p>
-        <img class="sinhala-title" src="./public/sinhala.svg" onContextMenu="return false;">
+        <img class="sinhala-title" src="./public/sinhala.svg" alt="ශ්‍රී පාදය" onContextMenu="return false;">
         <p class="content">
           Adam’s Peak is one of the most iconic heritages in Sri Lanka. This conical mountain is located in the
           Sabaragamuwa Province. It is also known as “Samanala Kanda”. This has a history of more than thousand

@@ -25,12 +25,12 @@
 
     
     <div class="routes-tab-header">
-        <div id="hattonButton" class="tab-header" onclick="buttonClick(1)"> <img src="../.././public/green.svg" alt=""> Hatton, Nallathanni </div>
-        <div id="rathnapuraButton" class="tab-header" onclick="buttonClick(2)"> <img src="../.././public/yellow.svg" alt=""> Rathnapura, Palabaddala </div>
-        <div id="kuruvitaButton" class="tab-header" onclick="buttonClick(3)"> <img src="../.././public/green.svg" alt=""> Kuruvita, Eraththa </div>
-        <div id="deraniyagalaButton" class="tab-header" onclick="buttonClick(4)"> <img src="../.././public/red.svg" alt=""> Deraniyagala, Udamaliboda </div>
-        <div id="rajamaleButton" class="tab-header" onclick="buttonClick(5)"> <img src="../.././public/green.svg" alt=""> Rajamale, Sandagalathenna </div>
-        <div id="hapugastennaButton" class="tab-header" onclick="buttonClick(6)"> <img src="../.././public/red.svg" alt=""> Hapugastenna, Dehena Kanda </div>
+        <div id="hattonButton" class="tab-header" onclick="buttonClick(1)"> <img src="../.././public/green.svg" alt="sri padaya adam's peak Hatton Nallathanni button"> Hatton, Nallathanni </div>
+        <div id="rathnapuraButton" class="tab-header" onclick="buttonClick(2)"> <img src="../.././public/yellow.svg" alt="sri padaya adam's peak Rathnapura Palabaddala button"> Rathnapura, Palabaddala </div>
+        <div id="kuruvitaButton" class="tab-header" onclick="buttonClick(3)"> <img src="../.././public/green.svg" alt="sri padaya adam's peak Kuruvita Eraththa button"> Kuruvita, Eraththa </div>
+        <div id="deraniyagalaButton" class="tab-header" onclick="buttonClick(4)"> <img src="../.././public/red.svg" alt="sri padaya adam's peak Deraniyagala Udamaliboda button"> Deraniyagala, Udamaliboda </div>
+        <div id="rajamaleButton" class="tab-header" onclick="buttonClick(5)"> <img src="../.././public/green.svg" alt="sri padaya adam's peak Rajamale Sandagalathenna button"> Rajamale, Sandagalathenna </div>
+        <div id="hapugastennaButton" class="tab-header" onclick="buttonClick(6)"> <img src="../.././public/red.svg" alt="sri padaya adam's peak Hapugastenna Dehena Kanda button"> Hapugastenna, Dehena Kanda </div>
     </div>
     
     <div class="routes-card-section">
