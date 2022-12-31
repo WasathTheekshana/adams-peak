@@ -82,6 +82,6 @@ function buttonClick(no) {
         document.getElementById("distance").innerHTML = "14Km";
         document.getElementById("routeImg").src = "../.././public/routes-6.jpg";
         document.getElementById("routeImg").alt = "Hapugastenna Dehena Kanda trail sri padaya";
-        document.getElementById("routeDes").innerHTML = "";
+        document.getElementById("routeDes").innerHTML = "This route is not much famous. The easiest way to enter to this route is from Ratnapura. This route is the hardest and the longest route for this Sri Pada hike. The nature and the surrounding is quite similar to the Rajamale route. This route has founded in 1933. The ruins of the only restpoint for this route “Somarathna Ambalama” can be seen on this journey. The special destinations throughout this route are Rath Ganga, Wewal Dola, Wallakkara Galgeya, Bhathiya Dola and Paradise Fall.";
     }
 }
