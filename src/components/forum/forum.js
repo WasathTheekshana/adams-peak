@@ -12,13 +12,13 @@ success: function(data) {
     for (var i=0; i<data.length; i++) {
         var commentId = data[i].id;
         if(data[i].parent_comment == 0){
-        var row = $('<tr><td class="mainComment"><p class="commenter"><img class="avatar" src="./src/components/forum/avatar.jpg" width="30px" height="30px"/>' + data[i].name + ' <i class="date"> '+ data[i].date + '(IST)</i></p></br><p class="commentText">' + data[i].comment + '</br></br><a data-toggle="modal" data-id="'+ commentId +'" title="Add this item" class="open-ReplyModal" href="#ReplyModal">Reply</a>'+'</p></td></tr>');
+        var row = $('<tr><td class="mainComment"><p class="commenter"><img class="avatar" src="./src/components/forum/avatar.jpg" width="30px" height="30px"/>' + data[i].name + ' <i class="date"> '+ data[i].date + '(GMT)</i></p></br><p class="commentText">' + data[i].comment + '</br></br><a data-toggle="modal" data-id="'+ commentId +'" title="Add this item" class="open-ReplyModal" href="#ReplyModal">Reply</a>'+'</p></td></tr>');
         $('#record').append(row);
         for (var r = (data.length-1); (r >= 0); r--)
                 {
                     if ( data[r].parent_comment == commentId)
                     {
-                        var comments = $('<tr><td class="repComment"><p class="commenter"><img class="avatar" src="./src/components/forum/avatar.jpg" width="30px" height="30px"/>' + data[r].name + ' <i class="date"> ' + data[r].date + '(IST)</i></p></br><p class="commentText">'+ data[r].comment +'</p></td></tr>');
+                        var comments = $('<tr><td class="repComment"><p class="commenter"><img class="avatar" src="./src/components/forum/avatar.jpg" width="30px" height="30px"/>' + data[r].name + ' <i class="date"> ' + data[r].date + '(GMT)</i></p></br><p class="commentText">'+ data[r].comment +'</p></td></tr>');
                         $('#record').append(comments);
                     }
                 }$('#record').append($('<tr class="commentGap"></tr>'));
