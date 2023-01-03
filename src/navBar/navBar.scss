@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap");
 
-
 @keyframes nav-animation {
-  0%{
+  0% {
     transform: translateY(-100%);
     opacity: 0;
   }
-  100%{
+  100% {
     transform: translateY(0%);
   }
 }
@@ -18,8 +17,14 @@
 }
 
 .navbar {
-  padding-top:  2em;
-  animation: nav-animation 300ms ease-in-out;
+  position: fixed;
+  top: 0;
+  z-index: 5000;
+  padding: 10px 25px;
+  margin: 5px;
+  border-radius: 6px;
+  width: calc(100% - 10px);
+  transition: all 0.3s ease;
 
   .logoimage {
     height: 30px;
@@ -35,8 +40,12 @@
   }
 
   .container {
-    display: flex;  
+    display: flex;
+    align-items: center;
     place-content: space-between;
+    animation: nav-animation 300ms ease-in-out;
+
+    border-radius: 12px;
     // background-color: black;
   }
 
@@ -58,9 +67,14 @@ ul {
 
 nav.menu-button {
   display: block;
-  background: linear-gradient(279.22deg, rgba(153, 153, 153, 0.28) 7.79%, rgba(0, 0, 0, 0.1624) 133.84%);
+  background: linear-gradient(
+    279.22deg,
+    rgba(153, 153, 153, 0.28) 7.79%,
+    rgba(0, 0, 0, 0.1624) 133.84%
+  );
   backdrop-filter: blur(25px);
   box-shadow: 0px 4px 41px 7px rgba(0, 0, 0, 0.25);
+  height: 100vh;
 }
 
 nav {
@@ -70,7 +84,6 @@ nav {
   right: 0;
   top: 0;
 
-  height: 100vh;
   padding: 1em;
 
   ul {
@@ -104,7 +117,10 @@ nav {
 }
 
 @media only screen and (min-width: 840px) {
-
+  .navbar {
+    backdrop-filter: blur(8px);
+    padding: 5px 25px;
+  }
 
   .mobile-menu,
   .mobile-menu-exit {
@@ -116,11 +132,13 @@ nav {
     grid-template-columns: 180px auto;
     justify-content: space-between;
     height: 70px;
-    margin-top: 1.5em;
 
     .logoimage {
-      height: 30px;
+      height: 100%;
       width: 8em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       // margin-left: 3em;
 
       img {
@@ -136,7 +154,8 @@ nav {
     position: unset;
     height: auto;
     width: 100%;
-    padding: 1em 0 0 0;
+    backdrop-filter: none;
+    box-shadow: none;
     // margin-right: 3em;
     font-size: 1.2em;
 

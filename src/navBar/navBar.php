@@ -1,17 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="navBar.css">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
-</html>
-
 <div class="navbar">
   <div class="container">
     <div class="logoimage">
@@ -32,10 +18,9 @@
       </ul>
     </nav>
     <script>
-
-      const mobileBtn = document.getElementById("mobile-cta");
-      nav = document.querySelector("nav");
-      mobileBtnExit = document.getElementById("mobile-exit");
+      const mobileBtn = document.getElementById("mobile-cta"),
+        nav = document.querySelector("nav"),
+        mobileBtnExit = document.getElementById("mobile-exit");
 
       mobileBtn.addEventListener("click", () => {
         nav.classList.add("menu-button");
@@ -44,6 +29,30 @@
       mobileBtnExit.addEventListener("click", () => {
         nav.classList.remove("menu-button");
       });
+
+      const noticeContainer = document.querySelector(".notice-container"),
+        navbar = document.querySelector(".navbar"),
+        doc = document.querySelector("html");
+      let topSection = document.querySelector(".top-section");
+
+      document.querySelector("body").onscroll = (e) => {
+        // Navbar handle on marquee notices
+        if (noticeContainer)
+          navbar.style.top = `${Math.max(0, noticeContainer.clientHeight - doc.scrollTop)}px`;
+
+        // Navbar color change on exit of .top-section
+        if (topSection && topSection.clientHeight + (noticeContainer ? noticeContainer.clientHeight : 0) < doc.scrollTop) {
+          navbar.style.backgroundColor = "#212121";
+        } else {
+          navbar.style.backgroundColor = "transparent";
+
+          // since .top-section comes after navbar, this line is important 
+          topSection = document.querySelector(".top-section");
+        }
+      }
+
+      // on page load put navbar in currect position
+      document.querySelector("body").onload = document.querySelector("body").onscroll;
     </script>
   </div>
 </div>

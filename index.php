@@ -2,26 +2,25 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Adams Peak, also known as Sri Pada, is an iconic mountain in Sri Lanka. It is a place of spiritual significance for people of various faiths and is a treasured heritage of Sri Lanka.">
-    <meta name="keywords" content="visit Sri Lanka, adam's peak, Sri Padaya, Travel Sri Lanka, Sri Padata Details, Sri Padaya Photos, sri padaya details, adam's peak history">
-    <meta http-equiv="refresh">
-    <title>Sri Padaya</title>
-    <link rel="stylesheet" href="/src/css/index.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="./src/components/forum/forum.js"></script>
-    <link rel="apple-touch-icon" sizes="180x180" href="./public/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./public/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./public/favicon-16x16.png">
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Adams Peak, also known as Sri Pada, is an iconic mountain in Sri Lanka. It is a place of spiritual significance for people of various faiths and is a treasured heritage of Sri Lanka.">
+  <meta name="keywords" content="visit Sri Lanka, adam's peak, Sri Padaya, Travel Sri Lanka, Sri Padata Details, Sri Padaya Photos, sri padaya details, adam's peak history">
+  <meta http-equiv="refresh">
+  <title>Sri Padaya</title>
+  <link rel="stylesheet" href="/src/css/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="./src/components/forum/forum.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="./public/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./public/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./public/favicon-16x16.png">
 </head>
 
 <body>
 
-    <!-- <div class="preloader-container">
+  <!-- <div class="preloader-container">
         <img id="preloader-img" src="../../../public/preloader-img.png" alt="">
         <h2> Adam's Peak </h2>
     </div>
@@ -34,16 +33,19 @@
       }
   </script> -->
 
-  <marquee width="1%" direction="left" loop="infinite">
-    *New Sri Pada Season - 7th december 2022 to 5th May 2023
+  <div class="notice-container">
+    <marquee width="1%" direction="left" loop="infinite">
+      *New Sri Pada Season - 7th december 2022 to 5th May 2023
     </marquee>
+  </div>
+
+  <!-------------------- navBar Section -------------------->
+  <?php include './src/navBar/navBar.php'; ?>
 
   <!-------------------- Hero Section -------------------->
-  <div class="container-hero">
+  <div class="container-hero top-section">
     <div class="hero-section">
 
-      <!-------------------- navBar Section -------------------->
-    <?php include './src/navBar/navBar.php';?> 
       <!-------------------- navBar Section end -------------------->
 
       <div class="hero-content">
@@ -116,27 +118,27 @@
 
   <div class="container-card">
     <div class="card">
-        <div class="card-content">
-            <h3>See the real beauty</h3>
-            <p>View all the beautiful photos of “Sri Padaya”</p>
-            <button onClick="window.location.href='./src/pages/gallery.php';">View Gallery</button>
-        </div>
+      <div class="card-content">
+        <h3>See the real beauty</h3>
+        <p>View all the beautiful photos of “Sri Padaya”</p>
+        <button onClick="window.location.href='./src/pages/gallery.php';">View Gallery</button>
+      </div>
     </div>
-</div>
+  </div>
 
   <!-------------------- Gallery Section End -------------------->
 
   <!-------------------- Forum Section -------------------->
   <?php
-date_default_timezone_set("Asia/Colombo");
-?>
-  <?php include './src/components/forum/forum.php'?>
+  date_default_timezone_set("Asia/Colombo");
+  ?>
+  <?php include './src/components/forum/forum.php' ?>
   <!-------------------- Forum Section End -------------------->
 
   <!-------------------- Footer Section -------------------->
-  <?php include './src/footer/footer.php';?> 
+  <?php include './src/footer/footer.php'; ?>
   <!-------------------- Footer Section End -------------------->
 
-  </body>
+</body>
 
 </html>
