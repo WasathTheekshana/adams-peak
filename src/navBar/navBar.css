@@ -19,9 +19,9 @@
   top: 0;
   z-index: 5000;
   padding: 10px 25px;
-  margin: 5px;
+  margin: 8px;
   border-radius: 8px;
-  width: calc(100% - 10px);
+  width: calc(100% - 16px);
   box-shadow: 0 0 3px wheat;
   transition: all 0.3s ease;
 }
