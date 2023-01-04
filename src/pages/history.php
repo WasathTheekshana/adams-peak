@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>History</title>
-  <link rel="stylesheet" href="./history-css/history.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="./../../public/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./../../public/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./../../public/favicon-16x16.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+    <link rel="stylesheet" href="./history-css/history.css">    
+    <link rel="apple-touch-icon" sizes="180x180" href="./../../public/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./../../public/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./../../public/favicon-16x16.png">
 </head>
-
 <body>
-
-  <?php include '../navBar/navBar.php'; ?>
-  <div class="history-main-section top-section">
+  
+  <div class="history-main-section">
+    <div class="history-nav-bar">
+      <?php include '../navBar/navBar.php';?> 
+    </div>
 
     <div class="history-heading-section">
       <h2>History</h2>
@@ -42,7 +42,6 @@
     <div class="img history-content-6"></div>
   </div>
 
-  <?php include '../footer/footer.php'; ?>
+  <?php include '../footer/footer.php';?> 
 </body>
-
 </html>
