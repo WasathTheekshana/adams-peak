@@ -1,3 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="navBar.css">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
+
 <div class="navbar">
   <div class="container">
     <div class="logoimage">
@@ -9,30 +23,19 @@
       <img id="mobile-exit" class="mobile-menu-exit" src="../../public/exit.svg" alt="close navigation" />
 
       <ul class="nav-items">
-        <li>
-          <a class="nav-link" href="/index.php">Home</a>
-        </li>
-        <li>
-          <a class="nav-link" href="/src/pages/explore.php">Explore</a>
-        </li>
-        <li>
-          <a class="nav-link" href="/src/pages/history.php">History</a>
-        </li>
-        <li>
-          <a class="nav-link" href="/src/pages/routes.php">Routes</a>
-        </li>
-        <li>
-          <a class="nav-link" href="/src/pages/gallery.php">Gallery</a>
-        </li>
-        <li>
-          <a class="nav-link" href="/src/pages/developers.php">Contacts</a>
-        </li>
+        <li><a href="/index.php">Home</a></li>
+        <li><a href="/src/pages/explore.php">Explore</a></li>
+        <li><a href="/src/pages/history.php">History</a></li>
+        <li><a href="/src/pages/routes.php">Routes</a></li>
+        <li><a href="/src/pages/gallery.php">Gallery</a></li>
+        <li><a href="/src/pages/developers.php">Contacts</a></li>
       </ul>
     </nav>
     <script>
-      const mobileBtn = document.getElementById("mobile-cta"),
-        nav = document.querySelector("nav"),
-        mobileBtnExit = document.getElementById("mobile-exit");
+
+      const mobileBtn = document.getElementById("mobile-cta");
+      nav = document.querySelector("nav");
+      mobileBtnExit = document.getElementById("mobile-exit");
 
       mobileBtn.addEventListener("click", () => {
         nav.classList.add("menu-button");
@@ -41,45 +44,6 @@
       mobileBtnExit.addEventListener("click", () => {
         nav.classList.remove("menu-button");
       });
-
-      const noticeContainer = document.querySelector(".notice-container"),
-        navbar = document.querySelector(".navbar"),
-        doc = document.querySelector("html");
-      let topSection = document.querySelector(".top-section");
-
-      document.querySelector("body").onscroll = (e) => {
-        // Navbar handle on marquee notices
-        if (noticeContainer)
-          navbar.style.top = `${Math.max(0, noticeContainer.clientHeight - doc.scrollTop)}px`;
-
-        // Navbar color change on exit of .top-section
-        if (topSection && topSection.clientHeight + (noticeContainer ? noticeContainer.clientHeight : 0) < doc.scrollTop) {
-          navbar.style.backgroundColor = "#212121";
-        } else {
-          navbar.style.backgroundColor = "transparent";
-
-          // since .top-section comes after navbar, this line is important 
-          topSection = document.querySelector(".top-section");
-        }
-      }
-
-      // on page load put navbar in currect position
-      document.querySelector("body").onload = document.querySelector("body").onscroll;
-
-      const navLinks = document.getElementsByClassName("nav-link"),
-        {
-          pathname
-        } = window.location;
-
-      // modify active link
-      for (let i = 0; i < navLinks.length; i++) {
-        if (navLinks[i].href.endsWith(pathname)) {
-          navLinks[i].classList.add("active-link")
-          navLinks[i].onclick = (e) => {
-            e.preventDefault();
-          };
-        }
-      }
     </script>
   </div>
 </div>
