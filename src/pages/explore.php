@@ -28,7 +28,7 @@
   <div class="explore-content-section">
     <div class="explore-top-left">
       <h3> <span>The holy mountain</span> has been popularly known as,</h3>
-      <p> "Sri Pada" since asncient times. "Sri Pada" is also known as "Samanala Kanda" (Butterfly Mountain) due to the swarms of butterflies that surround the sides of the mountain at the beginning of the season. According to ancient beliefs, God Suman Saman is the Protector of Sri Pada; thus, it is also known as "Samanta-Kuta." "Adams Peak," "Rathnagiri," and "Swargarohanam" are a few names used for Sri Pada. <br><br>
+      <p> "Sri Pada" since ancient times. "Sri Pada" is also known as "Samanala Kanda" (Butterfly Mountain) due to the swarms of butterflies that surround the sides of the mountain at the beginning of the season. According to ancient beliefs, God Suman Saman is the Protector of Sri Pada; thus, it is also known as "Samanta-Kuta." "Adams Peak," "Rathnagiri," and "Swargarohanam" are a few names used for Sri Pada. <br><br>
 
         The pilgrimage season traditionally starts on the full moon in December and ends on the full moon in May. The season and off-season are mainly determined by the rain. The season starts in the middle of the North Eastern Monsoon, where this region receives significantly low rainfall, and ends in May, the month in which the South Eastern Monsoon starts. During the off-season months, Peak Wilderness receives a heavy rainfall, and it was difficult and risky to attempt the hike during the off-season in the past, but with recent developments and new technology available, hikers frequently complete off-season hikes now. <br><br>
 
