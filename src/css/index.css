@@ -2,7 +2,6 @@
 @import "../navBar/navBar.css";
 @import "/src/components/forum/forum.css";
 
-
 /* .preloader-container {
   background-color: white;
   height: 100vh;
@@ -21,7 +20,7 @@
 marquee {
   width: 100vw;
   height: 44px;
-  background: linear-gradient(93.73deg, #1D3B50 -9.06%, #0C4369 97.83%);
+  background: linear-gradient(93.73deg, #1d3b50 -9.06%, #0c4369 97.83%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,7 +48,7 @@ marquee {
 }
 
 .hero-content {
-  margin-top: 157px;
+  padding-top: 120px;
 }
 
 .english-title {
@@ -89,9 +88,13 @@ marquee {
   color: white;
   font-size: 1em;
   font-weight: 600;
-  background: linear-gradient(93.97deg, #D9D9D9 -173.88%, rgba(173, 173, 173, 0) 214.31%);
+  background: linear-gradient(
+    93.97deg,
+    #d9d9d9 -173.88%,
+    rgba(173, 173, 173, 0) 214.31%
+  );
   -webkit-backdrop-filter: blur(2px);
-          backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
   border-radius: 10px;
   width: 15%;
   padding-top: 1em;
@@ -106,14 +109,13 @@ marquee {
   }
   .hero-content {
     width: 100%;
-    margin-top: 68px;
   }
   .english-title {
     font-size: 12.2vw;
     padding: 0 !important;
   }
   .sinhala-title,
-.content {
+  .content {
     margin-top: 10px;
   }
   .sinhala-title {
@@ -157,7 +159,11 @@ marquee {
   gap: 4rem;
 }
 .intro-section-container button {
-  background: linear-gradient(93.66deg, #000000 -109.29%, rgba(46, 46, 46, 0.56) 298.88%);
+  background: linear-gradient(
+    93.66deg,
+    #000000 -109.29%,
+    rgba(46, 46, 46, 0.56) 298.88%
+  );
   border-radius: 10px;
   color: white;
   width: 30%;
@@ -320,10 +326,14 @@ marquee {
   height: 400px;
   margin: 30px;
   box-shadow: 0px 4px 41px 7px rgba(0, 0, 0, 0.25);
-  background: linear-gradient(279.22deg, rgba(153, 153, 153, 0.28) 7.79%, rgba(0, 0, 0, 0.1624) 133.84%);
+  background: linear-gradient(
+    279.22deg,
+    rgba(153, 153, 153, 0.28) 7.79%,
+    rgba(0, 0, 0, 0.1624) 133.84%
+  );
   border-radius: 16px;
   -webkit-backdrop-filter: blur(18px);
-          backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
   padding: 30px;
   border: 0.5px solid white;
 }
@@ -342,7 +352,11 @@ marquee {
   padding-right: 30px;
 }
 .container-card .card button {
-  background: linear-gradient(93.97deg, #D9D9D9 -173.88%, rgba(217, 217, 217, 0) 214.31%);
+  background: linear-gradient(
+    93.97deg,
+    #d9d9d9 -173.88%,
+    rgba(217, 217, 217, 0) 214.31%
+  );
   width: 180px;
   height: 50px;
   border-radius: 10px;
@@ -369,7 +383,7 @@ marquee {
 }
 
 footer {
-  background: linear-gradient(to right, #0D0D0D, #000000);
+  background: linear-gradient(to right, #0d0d0d, #000000);
   position: relative;
   width: 100%;
   padding: 50px 50px;
@@ -479,7 +493,11 @@ footer .container-div {
 }
 
 .buttonsec-part2 button {
-  background: linear-gradient(93.97deg, #D9D9D9 -173.88%, rgba(217, 217, 217, 0) 214.31%);
+  background: linear-gradient(
+    93.97deg,
+    #d9d9d9 -173.88%,
+    rgba(217, 217, 217, 0) 214.31%
+  );
   border-radius: 10px;
   width: 204px;
   height: 48px;
@@ -593,4 +611,4 @@ footer .container-div {
   .row3-img {
     height: 110vh;
   }
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */
