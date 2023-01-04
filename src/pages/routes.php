@@ -54,7 +54,7 @@
             <div class="routes-card-image"><img id="routeImg"  src="../.././public/routes-1.jpg" alt="hatton nallathanni trail sri padaya"></div>
 
             <div class="routes-card-content">
-                <p id="routeDes">Hatton - Nallathanni route is the most famous and the shortest route among the 6 main routes. This is the route which starts from the highest elevation. Roads of this route is well paved as this is the most popular route among both local and foreign devotees. This route has stairs all the way. Drinking water and restpoints are also available there in this route. Also comparatively this route has more facilities than other routes. On this route you’ll be passing “Japanese Temple”, “Makara Thorana”, “Gangul Thenna”, “Seetha Gangula River” and the “Seetha Gangula Rest point”.</p>
+                <p id="routeDes">Hatton - Nallathanni route is the most famous and the shortest route among the 6 main routes. This is the route which starts from the highest elevation. Roads of this route is well paved as this is the most popular route among both local and foreign devotees. This route has stairs all the way. Drinking water and rest points are also available there in this route. Also comparatively this route has more facilities than other routes. On this route you’ll be passing “Japanese Temple”, “Makara Thorana”, “Gangul Thenna”, “Seetha Gangula River” and the “Seetha Gangula Rest point”.</p>
             </div>
 
         </div>

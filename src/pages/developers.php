@@ -28,7 +28,7 @@
 
         <div class="dev-content-hero">
             <h2> <span> Our Team <br> is full of </span> Undergraduates</h2>
-            <p>Adams Peak is the product of the hard work and creativity of a group of undergraduate software engineering students at NSBM Green University. As our first project together, we are proud to present this website as a helpful resource for anyone planning a trip to Adams Peak. Thank you for visiting and we hope you find all the information you need to have a great experience on the mountain.</p>
+            <p>Adam's Peak is the product of the hard work and creativity of a group of undergraduate software engineering students at NSBM Green University. As our first project together, we are proud to present this website as a helpful resource for anyone planning a trip to Adam's Peak. Thank you for visiting and we hope you find all the information you need to have a great experience on the mountain.</p>
         </div>
 
         <div class="dev-card-section">
@@ -146,7 +146,7 @@
 
                 <p>NSBM Green University, the nation’s premier degree-awarding institute, is the first of its kind in South Asia. It is a government-owned self-financed institute that operates under the purview of the Ministry of Education. As a leading educational centre in the country, NSBM has evolved into becoming a highly responsible higher education institute that offers unique opportunities and holistic education on par with international standards while promoting sustainable living. <br><br>
 
-                    NSBM offers a plethora of undergraduate and postgraduate degree programmes under five faculties: Business, Computing, Engineering, Science and Postgraduate & Professional Advancement. These study programmes at NSBM are either its own programmes recognised by the University Grants Commission and the Ministry of Higher Education or world-class international programmes conducted in affiliation with top-ranked foreign universities such as University of Plymouth, UK, and Victoria University, Australia. <br><br>
+                    NSBM offers a plethora of undergraduate and postgraduate degree programmes under five faculties: Business, Computing, Engineering, Science and Postgraduate & Professional Advancement. These study programmes at NSBM are either its own programmes recognied by the University Grants Commission and the Ministry of Higher Education or world-class international programmes conducted in affiliation with top-ranked foreign universities such as University of Plymouth, UK, and Victoria University, Australia. <br><br>
                     
                     Focused on producing competent professionals and innovative entrepreneurs for the increasingly globalising world, NSBM nurtures its graduates to become productive citizens of society with their specialisation ranging in study fields such as Business, Management, Computing, IT, Engineering, Science, Psychology, Nursing, Interior design, Quantity Surveying, Law and Multimedia. <br><br>
                     
@@ -167,7 +167,7 @@
             <div class="contact-us-card">
                 <h1>?</h1>
                 <h2>Have a question ? <br> Our team is <br> with you </h2>
-                <p>If you have any questions about the information provided on our website,  please don't hesitate to reach out to us. <br> We are here to help and we welcome any feedback or suggestions you may have. <br> Thank you for visiting adamspeak,net and we hope you have a great trip!</p>
+                <p>If you have any questions about the information provided on our website,  please don't hesitate to reach out to us. <br> We are here to help and we welcome any feedback or suggestions you may have. <br> Thank you for visiting sripadaya.net and we hope you have a great trip!</p>
                 <button onclick="location.href='mailto:contact@sripadaya.net';";>Contact Us</button>
             </div>
             
