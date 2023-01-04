@@ -35,7 +35,7 @@
   </script> -->
 
   <marquee width="1%" direction="left" loop="infinite">
-    *New Sri Pada Season - 7th december 2022 to 5th May 2023
+    *New Sri Pada Season - 7th December 2022 to 5th May 2023
     </marquee>
 
   <!-------------------- Hero Section -------------------->
@@ -52,7 +52,7 @@
         <p class="content">
           Adam’s Peak is one of the most iconic heritages in Sri Lanka. This conical mountain is located in the
           Sabaragamuwa Province. It is also known as “Samanala Kanda”. This has a history of more than thousand
-          years. People of all four main religions in Sri Lanka is truely believe that there are some miracles are
+          years. People of all four main religions in Sri Lanka is truly believe that there are some miracles are
           still happening at the sacred footprint on top of the mountain. Sri Pada is the only mountain in the
           world that receives benefactions and veneration of devotees belonging to different faiths.
         </p>
